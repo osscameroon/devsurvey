@@ -1,0 +1,33 @@
+<form class="row pt-4 pb-4 g-2 d-flex justify-content-center mt-5 mb-5 bg-light">
+    <div class="col-md-3">
+	  <div class="input-group">
+    	<input id="search-input" type="text" id="query" name="query" class="form-control" placeholder="search" value="{{query}}"/>
+  	    <button type="submit" class="btn btn-primary">
+  	  	  <i class="fa fa-search" aria-hidden="true"></i>
+  	    </button>
+	  </div>
+	</div>
+</form>
+
+<div class="container mt-5" style="margin-bottom: 25px">
+    <div class="row g-5">
+        {{#each apps}}
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card h-100 w-100">
+
+                <div class="card-body">
+                  <div class="d-flex justify-content-start align-items-center mb-2">
+                    <div class="ms-2 pt-3">
+                        <a style="text-decoration: underline; color: black" href="{{this.url}}" target="_blank">
+                          <h6 class="card-title"><strong>{{this.fav_languages}}</strong></h6>
+                        </a>
+                        <p style="font-size: 0.8rem"><em>{{this.fav_frameworks}}</em></p>
+                      </div>
+                  </div>
+                    <p style="max-height: 150px; white-space: wrap; overflow: hidden;" class="card-text">{{this.frontend_dev}}</p>
+                </div>
+              </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

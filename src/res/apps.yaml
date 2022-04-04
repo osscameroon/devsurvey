@@ -1,0 +1,87 @@
+items:
+  #Which of these languages is your favourite
+  - fav_languages:
+      - Python
+    #Which of these languages did you use professionnaly with a company located in Cameroon
+    pro_cam_languages:
+      - C
+      - C++
+      - Python
+      - Javascript
+      - Typescript
+      - Golang
+    #Which of these languages did you use professionnaly with a company abroad
+    pro_abroad_languages:
+      - C
+      - C++
+      - Python
+      - Javascript
+      - Typescript
+      - Golang
+    #Are you more of frontend dev
+    frontend_dev: false
+    #Are you more of backend dev
+    backend_dev: true
+    #Are you a fullstack dev
+    fullstack_dev: true
+    #Are you a mobile developer
+    mobile_dev: true
+    #Which of these frameworks is your favourite
+    fav_frameworks:
+      - laravel
+      - asp.net
+      - React
+
+    #Which of these frameworks did you use professionnaly with a Cameroonian company
+    pro_cam_frameworks:
+      - laravel
+      - asp.net
+      - React
+    #Which of these frameworks did you use professionnaly with a company abroad
+    pro_abroad_frameworks:
+      - asp.net
+      - React
+#--------------------------------------------------------------
+#Which of these languages is your favourite
+  - fav_languages:
+      - Python
+    #Which of these languages did you use professionnaly with a company located in Cameroon
+    pro_cam_languages:
+      - C
+      - C++
+      - Python
+      - Javascript
+      - Typescript
+      - Golang
+    #Which of these languages did you use professionnaly with a company abroad
+    pro_abroad_languages:
+      - C
+      - C++
+      - Python
+      - Javascript
+      - Typescript
+      - Golang
+    #Are you more of frontend dev
+    frontend_dev: false
+    #Are you more of backend dev
+    backend_dev: true
+    #Are you a fullstack dev
+    fullstack_dev: true
+    #Are you a mobile developer
+    mobile_dev: true
+    #Which of these frameworks is your favourite
+    fav_frameworks:
+      - laravel
+      - asp.net
+      - React
+
+    #Which of these frameworks did you use professionnaly with a Cameroonian company
+    pro_cam_frameworks:
+      - laravel
+      - asp.net
+      - React
+    #Which of these frameworks did you use professionnaly with a company abroad
+    pro_abroad_frameworks:
+      - asp.net
+      - React
+#--------------------------------------------------------------
