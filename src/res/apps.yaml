@@ -4,6 +4,10 @@ items:
       - Rust
       - Golang
       - C
+    github_handle: elhmn
+    gitlab_handle: elhmn
+    #The city you are living in
+    city: Douala
     #Which of these languages did you use professionnaly with a company located in Cameroon
     pro_cam_languages:
       - Python
@@ -42,6 +46,9 @@ items:
 #Which of these languages is your favourite
   - fav_languages:
       - Python
+    #The city you are living in
+    city: Yaounde
+    github_handle: Asam237
     #Which of these languages did you use professionnaly with a company located in Cameroon
     pro_cam_languages:
       - C
