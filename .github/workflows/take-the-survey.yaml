@@ -1,0 +1,38 @@
+name: Process survey's entry
+on:
+  issues:
+    types: opened
+concurrency: 'main'
+jobs:
+  take_survey:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - uses: stefanbuck/github-issue-praser@v2
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/take-the-survey.yaml
+
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > ./src/res/survey.json
+
+      - run: cat survey.json
+
+#       - run: node ./place-order.js
+# 
+#       - name: Commit changes
+#         shell: bash
+#         run: |
+#           git config --global user.email "github-actions[bot]@users.noreply.github.com" && \
+#           git config --global user.name "github-actions[bot]" && \
+#           git add README.md && \
+#           git commit -m 'Place order' && \
+#           git push
+# 
+#       - uses: peter-evans/close-issue@v1
+#         with:
+#           comment: Pizza time! Check out the <a href="../">README</a>.
