@@ -20,7 +20,7 @@ jobs:
           label_marker_start: '>>'
           label_marker_end: '<<'
 
-      - run: echo echo "${{ steps.parse.outputs.payload }}" > survey.json
+      - run: echo "${{ steps.issue-parser.outputs.payload }}" > survey.json
 
       - run: cat survey.json
 
