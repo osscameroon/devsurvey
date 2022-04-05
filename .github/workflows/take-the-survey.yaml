@@ -1,7 +1,7 @@
 name: Process survey's entry
 on:
   issues:
-    types: opened
+    types: [ opened ]
 concurrency: 'main'
 jobs:
   take_survey:
@@ -13,12 +13,14 @@ jobs:
         with:
           node-version: '16'
 
-      - uses: stefanbuck/github-issue-praser@v2
+      - uses: peter-murray/issue-forms-body-parser@v2.0.0
         id: issue-parser
         with:
-          template-path: .github/ISSUE_TEMPLATE/take-the-survey.yaml
+          issue_id: ${{ github.event.issue.number }}
+          label_marker_start: '>>'
+          label_marker_end: '<<'
 
-      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > survey.json
+      - run: echo echo "${{ steps.parse.outputs.payload }}" > survey.json
 
       - run: cat survey.json
 
