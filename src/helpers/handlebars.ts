@@ -34,6 +34,11 @@ export const constructUrl = (url: string, param: string): string => {
   }
   return url.includes("&") ? data.join("&") : data.join("?");
 }
+
 export const contains = (a: string, b:string): boolean => {
   return a.includes(b);
+}
+
+export const formatList = (list: string[]): string => {
+  return list.join(', ');
 }

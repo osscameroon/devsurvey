@@ -1,22 +1,19 @@
 items:
   #Which of these languages is your favourite
   - fav_languages:
-      - Python
+      - Rust
+      - Golang
+      - C
     #Which of these languages did you use professionnaly with a company located in Cameroon
     pro_cam_languages:
-      - C
-      - C++
       - Python
-      - Javascript
       - Typescript
-      - Golang
     #Which of these languages did you use professionnaly with a company abroad
     pro_abroad_languages:
-      - C
-      - C++
       - Python
       - Javascript
       - Typescript
+      - Java
       - Golang
     #Are you more of frontend dev
     frontend_dev: false
@@ -52,14 +49,12 @@ items:
       - Python
       - Javascript
       - Typescript
-      - Golang
+      - PHP
     #Which of these languages did you use professionnaly with a company abroad
     pro_abroad_languages:
       - C
       - C++
       - Python
-      - Javascript
-      - Typescript
       - Golang
     #Are you more of frontend dev
     frontend_dev: false

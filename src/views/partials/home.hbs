@@ -12,19 +12,61 @@
 <div class="container mt-5" style="margin-bottom: 25px">
     <div class="row g-5">
         {{#each apps}}
-            <div class="col-md-4 d-flex justify-content-center">
+            <div class="d-flex justify-content-center">
               <div class="card h-100 w-100">
-
                 <div class="card-body">
                   <div class="d-flex justify-content-start align-items-center mb-2">
-                    <div class="ms-2 pt-3">
-                        <a style="text-decoration: underline; color: black" href="{{this.url}}" target="_blank">
-                          <h6 class="card-title"><strong>{{this.fav_languages}}</strong></h6>
-                        </a>
-                        <p style="font-size: 0.8rem"><em>{{this.fav_frameworks}}</em></p>
-                      </div>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Questions</th>
+                          <th scope="col">Answers</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><strong>What are your favourite languages ?</strong></td>
+                          <td>{{formatList this.fav_languages}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>What are the languages you have used at Cameroonian companies ?</strong></td>
+                          <td>{{formatList this.pro_cam_languages}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>What are the languages you have used at remote companies ?</strong></td>
+                          <td>{{formatList this.pro_abroad_languages}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>What are your favourite frameworks ?</strong></td>
+                          <td>{{formatList this.fav_frameworks}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>What are the frameworks you have used at Cameroonian companies ?</strong></td>
+                          <td>{{formatList this.pro_cam_frameworks}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>What are the frameworks you have used at remote companies ?</strong></td>
+                          <td>{{formatList this.pro_abroad_frameworks}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Did you ever work as a frontend developer ?</strong></td>
+                          <td>{{this.frontend_dev}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Did you ever work as a backend developer ?</strong></td>
+                          <td>{{this.backend_dev}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Did you ever work as a mobile developer ?</strong></td>
+                          <td>{{this.fullstack_dev}}</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Did you ever work as a mobile developer ?</strong></td>
+                          <td>{{this.mobile_dev}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
-                    <p style="max-height: 150px; white-space: wrap; overflow: hidden;" class="card-text">{{this.frontend_dev}}</p>
                 </div>
               </div>
             </div>
