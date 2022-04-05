@@ -1,7 +1,7 @@
 import express from "express";
 import exphbs from "express-handlebars";
 import * as helpers from "./helpers/handlebars";
-import { getApps, Item } from "./apps";
+import { getSurvey, Item } from "./survey";
 import Fuse from "fuse.js";
 
 const port: number = 3001;
@@ -62,11 +62,11 @@ const paginate = (items: Item[], page: number) => {
 
 const handleHome = async (req: any, res: any) => {
   const query = req.query.query || "";
-  const apps = getApps()?.items;
-  let filteredApps = getItemsMatchingQuery(query, apps);
+  const survey = getSurvey()?.items;
+  let filteredSurvey = getItemsMatchingQuery(query, survey);
 
   const { count, items, interval } = paginate(
-    filteredApps,
+    filteredSurvey,
     parseInt(req.query.page) || 1
   );
   const fullUrl = req.protocol + "://" + req.get("host") + req.originalUrl;
@@ -79,7 +79,7 @@ const handleHome = async (req: any, res: any) => {
     hasParams: fullUrl.includes("?"),
     current: parseInt(req.query.page) || 1,
     pages: Math.ceil(count / limit),
-    apps: items,
+    survey: items,
     currentYear: getCurrentYear(),
   });
 };

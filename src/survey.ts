@@ -1,7 +1,7 @@
 import YAML from "yaml";
 import * as fs from "fs";
 
-const appsFilePath = __dirname + "/res/apps.yaml";
+const surveyFilePath = __dirname + "/res/survey.yaml";
 
 export interface Item {
   fav_languages?: string;
@@ -12,16 +12,16 @@ export interface Item {
   pro_abroad_frameworks?: string[];
 };
 
-export interface Apps {
+export interface Survey {
   items?: Item[];
 };
 
-export const getApps = (): Apps => {
+export const getSurvey = (): Survey => {
   try {
-    const file = fs.readFileSync(appsFilePath, "utf8");
-    const apps = YAML.parse(file);
+    const file = fs.readFileSync(surveyFilePath, "utf8");
+    const survey = YAML.parse(file);
     return {
-      items: apps.items,
+      items: survey.items,
     };
   } catch (err) {
     //replace this with a proper log
