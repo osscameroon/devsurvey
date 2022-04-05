@@ -18,12 +18,12 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/take-the-survey.yaml
 
-      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > ./src/res/survey.json
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > survey.json
 
       - run: cat survey.json
 
 #       - run: node ./place-order.js
-# 
+#
 #       - name: Commit changes
 #         shell: bash
 #         run: |
@@ -32,7 +32,7 @@ jobs:
 #           git add README.md && \
 #           git commit -m 'Place order' && \
 #           git push
-# 
+#
 #       - uses: peter-evans/close-issue@v1
 #         with:
 #           comment: Pizza time! Check out the <a href="../">README</a>.
