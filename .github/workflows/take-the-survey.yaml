@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: '16'
 
-      - uses: stefanbuck/github-issue-praser@v2
+      - uses: elhmn/github-issue-parser@release-parse-checkbox
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/take-the-survey.yaml
