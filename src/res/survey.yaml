@@ -93,4 +93,27 @@ items:
       - PHP
       - Objective-C
     fav_frameworks: []
+  - github_handle: elhmn
+    gitlab_handle: ""
+    city: ""
+    fav_languages:
+      - Python
+      - Java
+      - C#
+      - C/C++
+      - PHP
+      - TypeScript
+      - Lua
+      - Groovy
+    fav_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Vue.js
+      - Flask
+      - ASP.NET
+      - Django
+      - Laravel
+      - Ruby on Rails
 #--------------------------------------------------------------
