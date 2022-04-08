@@ -18,23 +18,32 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/take-the-survey.yaml
 
-      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > survey.json
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > survey_submission.json
 
-      - run: cat survey.json | jq
+      - run: |
+          cat survey_submission.json | jq
 
-      - run: cat survey.json | yq e -P -
+      - name: Set convert json to yaml
+        run: |
+          cat survey_submission.json | yq e '{"items": [.]}' -P - > survey_submission.yaml
 
-#       - run: node ./place-order.js
-#
-#       - name: Commit changes
-#         shell: bash
-#         run: |
-#           git config --global user.email "github-actions[bot]@users.noreply.github.com" && \
-#           git config --global user.name "github-actions[bot]" && \
-#           git add README.md && \
-#           git commit -m 'Place order' && \
-#           git push
-#
-#       - uses: peter-evans/close-issue@v1
-#         with:
-#           comment: Pizza time! Check out the <a href="../">README</a>.
+      - run: cat survey_submission.yaml
+
+      - run: cat ./src/res/survey.yaml
+
+      - name: Set convert json to yaml
+        run: |
+          yq ea '. as $item ireduce ({}; . *+ $item)' ./src/res/survey.yaml survey_submission.yaml > ./src/res/survey.yaml
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com" && \
+          git config --global user.name "github-actions[bot]" && \
+          git add ./src/res/survey.yaml && \
+          git commit -m 'new survey answer' && \
+          git push
+
+      - uses: peter-evans/close-issue@v1
+        with:
+          comment: Your survey answer was submitted and will be deployed in few minutes.
