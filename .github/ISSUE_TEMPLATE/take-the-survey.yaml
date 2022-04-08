@@ -7,8 +7,6 @@ body:
     attributes:
       label:  What is your github handle ?
       description: give us your github handle, you can find it at the end of your https://github.com/<handle>
-    validations:
-      required: true
   - type: input
     id: gitlab_handle
     attributes:
