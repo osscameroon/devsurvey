@@ -22,6 +22,8 @@ jobs:
 
       - run: cat survey.json | jq
 
+      - run: cat survey.json | yq e -P -
+
 #       - run: node ./place-order.js
 #
 #       - name: Commit changes
