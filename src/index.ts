@@ -35,12 +35,16 @@ const getItemsMatchingQuery = (query: string, items: any): Item[] => {
       distance: 100,
       threshold: 0.3,
       keys: [
+        "city",
+        "github_handle",
+        "gitlab_handle",
         "fav_languages",
         "pro_cam_languages",
         "pro_abroad_languages",
         "fav_frameworks",
         "pro_cam_frameworks",
         "pro_abroad_frameworks",
+        "developer_type",
       ],
     });
     list = f.search(query)?.map((e: Fuse.FuseResult<Item>): Item => {

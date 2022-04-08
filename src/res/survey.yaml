@@ -19,15 +19,18 @@ items:
       - Typescript
       - Java
       - Golang
-    #Are you more of frontend dev
-    frontend_dev: false
-    #Are you more of backend dev
-    backend_dev: true
-    #Are you a fullstack dev
-    fullstack_dev: true
-    #Are you a mobile developer
-    mobile_dev: true
-    #Which of these frameworks is your favourite
+    developer_type:
+      - Frontend Developer
+      - Backend Developer
+      - Full stack Developer
+      - Mobile Developer
+      - Desktop Developer
+      - Game Developer
+      - Data scientist Developer
+      - DevOps Developer
+      - Embedded developer
+      - Web Developer
+      - Security Developer
     fav_frameworks:
       - laravel
       - asp.net
