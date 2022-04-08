@@ -24,6 +24,7 @@ jobs:
           cat survey_submission.json | jq
 
       - name: Set convert json to yaml
+        shell: bash
         run: |
           cat survey_submission.json | yq e '{"items": [.]}' -P - > survey_submission.yaml
 
@@ -32,6 +33,7 @@ jobs:
       - run: cat ./src/res/survey.yaml
 
       - name: Set convert json to yaml
+        shell: bash
         run: |
           yq ea '. as $item ireduce ({}; . *+ $item)' ./src/res/survey.yaml survey_submission.yaml > ./src/res/survey.yaml
 
