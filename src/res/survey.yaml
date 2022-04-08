@@ -116,4 +116,48 @@ items:
       - Django
       - Laravel
       - Ruby on Rails
+  - github_handle: yolo
+    gitlab_handle: test
+    city: Douala
+    fav_languages:
+      - Java
+      - JavaScript
+      - C/C++
+      - Go
+      - Rust
+    fav_frameworks:
+      - React.js
+      - jQuery
+      - Vue.js
+      - Flask
+      - ASP.NET
+      - Laravel
+      - Ruby on Rails
+    pro_cam_languages:
+      - Python
+      - Java
+      - C#
+      - C/C++
+      - PHP
+      - Swift
+      - Kotlin
+      - Go
+      - Groovy
+      - Perl
+    pro_cam_frameworks:
+      - React.js
+      - jQuery
+      - ASP.NET Core
+    pro_abroad_languages:
+      - C#
+      - C/C++
+      - PHP
+      - R
+      - Haskell
+      - Cobol
+    pro_abroad_frameworks:
+      - Spring
+      - Angular.js
+      - Laravel
+      - Ruby on Rails
 #--------------------------------------------------------------
