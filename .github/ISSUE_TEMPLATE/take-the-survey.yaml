@@ -150,3 +150,113 @@ body:
         - label: Symfony
         - label: Svelte
         - label: Drupal
+  - type: checkboxes
+    id: pro_cam_languages
+    attributes:
+      label: What are the languages you have used at Cameroonian companies ?
+      options:
+        - label: "Python"
+        - label: "Java"
+        - label: "JavaScript"
+        - label: "C#"
+        - label: "C/C++"
+        - label: "PHP"
+        - label: "R"
+        - label: "TypeScript"
+        - label: "Objective-C"
+        - label: "Swift"
+        - label: "Matlab"
+        - label: "Kotlin"
+        - label: "Go"
+        - label: "Rust"
+        - label: "Ruby"
+        - label: "VBA"
+        - label: "Ada"
+        - label: "Scala"
+        - label: "Dart"
+        - label: "Abap"
+        - label: "Visual Basic"
+        - label: "Lua"
+        - label: "Groovy"
+        - label: "Perl"
+        - label: "Julia"
+        - label: "Haskell"
+        - label: "Cobol"
+  - type: checkboxes
+    id: pro_cam_frameworks
+    attributes:
+      label: What are the frameworks you have used at Cameroonian companies ?
+      options:
+        - label: React.js
+        - label: jQuery
+        - label: Express
+        - label: Angular
+        - label: Vue.js
+        - label: ASP.NET Core
+        - label: Flask
+        - label: ASP.NET
+        - label: Django
+        - label: Spring
+        - label: Angular.js
+        - label: Laravel
+        - label: Ruby on Rails
+        - label: Gatsby
+        - label: FastAPI
+        - label: Symfony
+        - label: Svelte
+        - label: Drupal
+  - type: checkboxes
+    id: pro_abroad_languages
+    attributes:
+      label: What are the languages you have used at remote companies ?
+      options:
+        - label: "Python"
+        - label: "Java"
+        - label: "JavaScript"
+        - label: "C#"
+        - label: "C/C++"
+        - label: "PHP"
+        - label: "R"
+        - label: "TypeScript"
+        - label: "Objective-C"
+        - label: "Swift"
+        - label: "Matlab"
+        - label: "Kotlin"
+        - label: "Go"
+        - label: "Rust"
+        - label: "Ruby"
+        - label: "VBA"
+        - label: "Ada"
+        - label: "Scala"
+        - label: "Dart"
+        - label: "Abap"
+        - label: "Visual Basic"
+        - label: "Lua"
+        - label: "Groovy"
+        - label: "Perl"
+        - label: "Julia"
+        - label: "Haskell"
+        - label: "Cobol"
+  - type: checkboxes
+    id: pro_abroad_frameworks
+    attributes:
+      label: What are the frameworks you have used at remote companies ?
+      options:
+        - label: React.js
+        - label: jQuery
+        - label: Express
+        - label: Angular
+        - label: Vue.js
+        - label: ASP.NET Core
+        - label: Flask
+        - label: ASP.NET
+        - label: Django
+        - label: Spring
+        - label: Angular.js
+        - label: Laravel
+        - label: Ruby on Rails
+        - label: Gatsby
+        - label: FastAPI
+        - label: Symfony
+        - label: Svelte
+        - label: Drupal
