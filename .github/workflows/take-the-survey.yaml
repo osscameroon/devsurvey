@@ -13,16 +13,14 @@ jobs:
         with:
           node-version: '16'
 
-      - uses: peter-murray/issue-forms-body-parser@v2.0.0
+      - uses: stefanbuck/github-issue-praser@v2
         id: issue-parser
         with:
-          issue_id: ${{ github.event.issue.number }}
-          label_marker_start: '>>'
-          label_marker_end: '<<'
+          template-path: .github/ISSUE_TEMPLATE/take-the-survey.yaml
 
-      - run: echo "${{ steps.issue-parser.outputs.payload }}" > survey.json
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > survey.json
 
-      - run: cat survey.json
+      - run: cat survey.json | jq
 
 #       - run: node ./place-order.js
 #
