@@ -40,5 +40,5 @@ export const contains = (a: string, b:string): boolean => {
 }
 
 export const formatList = (list: string[]): string => {
-  return list.join(', ');
+  return list?.join(', ');
 }
