@@ -111,6 +111,7 @@ body:
         - label: Embedded developer
         - label: Web Developer
         - label: Security Developer
+        - label: Developer
 
   - type: checkboxes
     id: fav_languages

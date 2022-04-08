@@ -1,9 +1,13 @@
 items:
   #Which of these languages is your favourite
   - fav_languages:
-      - Rust
-      - Golang
       - C
+      - Golang
+      - Rust
+      - Python
+      - Javascript
+      - PHP
+      - Bash
     github_handle: elhmn
     gitlab_handle: elhmn
     #The city you are living in
@@ -14,193 +18,21 @@ items:
       - Typescript
     #Which of these languages did you use professionnaly with a company abroad
     pro_abroad_languages:
-      - Python
-      - Javascript
-      - Typescript
-      - Java
-      - Golang
-    developer_type:
-      - Frontend Developer
-      - Backend Developer
-      - Full stack Developer
-      - Mobile Developer
-      - Desktop Developer
-      - Game Developer
-      - Data scientist Developer
-      - DevOps Developer
-      - Embedded developer
-      - Web Developer
-      - Security Developer
-    fav_frameworks:
-      - laravel
-      - asp.net
-      - React
-    #Which of these frameworks did you use professionnaly with a Cameroonian company
-    pro_cam_frameworks:
-      - laravel
-      - asp.net
-      - React
-    #Which of these frameworks did you use professionnaly with a company abroad
-    pro_abroad_frameworks:
-      - asp.net
-      - React
-      #--------------------------------------------------------------
-      #Which of these languages is your favourite
-  - fav_languages:
-      - Python
-    #The city you are living in
-    city: Yaounde
-    github_handle: Asam237
-    #Which of these languages did you use professionnaly with a company located in Cameroon
-    pro_cam_languages:
       - C
-      - C++
-      - Python
-      - Javascript
-      - Typescript
-      - PHP
-    #Which of these languages did you use professionnaly with a company abroad
-    pro_abroad_languages:
-      - C
-      - C++
-      - Python
       - Golang
-    #Are you more of frontend dev
-    frontend_dev: false
-    #Are you more of backend dev
-    backend_dev: true
-    #Are you a fullstack dev
-    fullstack_dev: true
-    #Are you a mobile developer
-    mobile_dev: true
-    #Which of these frameworks is your favourite
-    fav_frameworks:
-      - laravel
-      - asp.net
-      - React
-    #Which of these frameworks did you use professionnaly with a Cameroonian company
-    pro_cam_frameworks:
-      - laravel
-      - asp.net
-      - React
-    #Which of these frameworks did you use professionnaly with a company abroad
-    pro_abroad_frameworks:
-      - asp.net
-      - React
-  - github_handle: elhmn
-    gitlab_handle: test
-    city: ""
-    fav_languages:
-      - C#
-      - C/C++
-      - PHP
-      - Objective-C
-    fav_frameworks: []
-  - github_handle: elhmn
-    gitlab_handle: ""
-    city: ""
-    fav_languages:
-      - Python
-      - Java
-      - C#
-      - C/C++
-      - PHP
-      - TypeScript
-      - Lua
-      - Groovy
-    fav_frameworks:
-      - React.js
-      - jQuery
-      - Express
-      - Angular
-      - Vue.js
-      - Flask
-      - ASP.NET
-      - Django
-      - Laravel
-      - Ruby on Rails
-  - github_handle: yolo
-    gitlab_handle: test
-    city: Douala
-    fav_languages:
-      - Java
-      - JavaScript
-      - C/C++
-      - Go
       - Rust
-    fav_frameworks:
-      - React.js
-      - jQuery
-      - Vue.js
-      - Flask
-      - ASP.NET
-      - Laravel
-      - Ruby on Rails
-    pro_cam_languages:
       - Python
-      - Java
-      - C#
-      - C/C++
+      - Javascript
       - PHP
-      - Swift
-      - Kotlin
-      - Go
-      - Groovy
-      - Perl
-    pro_cam_frameworks:
-      - React.js
-      - jQuery
-      - ASP.NET Core
-    pro_abroad_languages:
-      - C#
-      - C/C++
-      - PHP
-      - R
-      - Haskell
-      - Cobol
-    pro_abroad_frameworks:
-      - Spring
-      - Angular.js
-      - Laravel
-      - Ruby on Rails
-  - github_handle: elhmn
-    gitlab_handle: test
-    city: Garoua
+      - Bash
     developer_type:
-      - Frontend Developer
-      - Full stack Developer
-      - Desktop Developer
-    fav_languages:
-      - Python
-      - Java
-      - C#
-      - PHP
-      - R
-      - Ruby
-      - Scala
+      - Developer
     fav_frameworks:
+      - Unity
       - React.js
-      - jQuery
-      - Vue.js
-      - ASP.NET Core
-      - Django
-    pro_cam_languages:
-      - Python
-      - Java
-      - JavaScript
-      - R
-      - TypeScript
+    #Which of these frameworks did you use professionnaly with a Cameroonian company
     pro_cam_frameworks:
-      - React.js
-      - jQuery
-      - ASP.NET Core
-      - Flask
-    pro_abroad_languages:
-      - Java
-      - JavaScript
+      - Unity
+    #Which of these frameworks did you use professionnaly with a company abroad
     pro_abroad_frameworks:
-      - jQuery
-      - Express
-      - Angular
-      - Vue.js
-#--------------------------------------------------------------
+      - React.js
