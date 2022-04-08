@@ -163,4 +163,44 @@ items:
       - Angular.js
       - Laravel
       - Ruby on Rails
+  - github_handle: elhmn
+    gitlab_handle: test
+    city: Garoua
+    developer_type:
+      - Frontend Developer
+      - Full stack Developer
+      - Desktop Developer
+    fav_languages:
+      - Python
+      - Java
+      - C#
+      - PHP
+      - R
+      - Ruby
+      - Scala
+    fav_frameworks:
+      - React.js
+      - jQuery
+      - Vue.js
+      - ASP.NET Core
+      - Django
+    pro_cam_languages:
+      - Python
+      - Java
+      - JavaScript
+      - R
+      - TypeScript
+    pro_cam_frameworks:
+      - React.js
+      - jQuery
+      - ASP.NET Core
+      - Flask
+    pro_abroad_languages:
+      - Java
+      - JavaScript
+    pro_abroad_frameworks:
+      - jQuery
+      - Express
+      - Angular
+      - Vue.js
 #--------------------------------------------------------------
