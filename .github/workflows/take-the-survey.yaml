@@ -35,7 +35,9 @@ jobs:
       - name: Set convert json to yaml
         shell: bash
         run: |
-          yq ea '. as $item ireduce ({}; . *+ $item)' ./src/res/survey.yaml survey_submission.yaml
+          yq ea '. as $item ireduce ({}; . *+ $item)' -i ./src/res/survey.yaml survey_submission.yaml
+
+      - run: cat ./src/res/survey.yaml
 
       - name: Commit changes
         shell: bash
