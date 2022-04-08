@@ -32,7 +32,6 @@ items:
       - laravel
       - asp.net
       - React
-
     #Which of these frameworks did you use professionnaly with a Cameroonian company
     pro_cam_frameworks:
       - laravel
@@ -42,8 +41,8 @@ items:
     pro_abroad_frameworks:
       - asp.net
       - React
-#--------------------------------------------------------------
-#Which of these languages is your favourite
+      #--------------------------------------------------------------
+      #Which of these languages is your favourite
   - fav_languages:
       - Python
     #The city you are living in
@@ -76,7 +75,6 @@ items:
       - laravel
       - asp.net
       - React
-
     #Which of these frameworks did you use professionnaly with a Cameroonian company
     pro_cam_frameworks:
       - laravel
@@ -86,4 +84,13 @@ items:
     pro_abroad_frameworks:
       - asp.net
       - React
+  - github_handle: elhmn
+    gitlab_handle: test
+    city: ""
+    fav_languages:
+      - C#
+      - C/C++
+      - PHP
+      - Objective-C
+    fav_frameworks: []
 #--------------------------------------------------------------
