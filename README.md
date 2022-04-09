@@ -1,4 +1,4 @@
-# dev-survey
+# devsurvey
 
 Application to collect and list informations about developers favourite tools
 
@@ -14,6 +14,6 @@ You might need to install `yarn` and a `node` version >= 15
 
 ## How to run with docker
 
-1. Run `docker build . -t dev-survey`
+1. Run `docker build . -t devsurvey`
 2. Run `docker run -it  -p 3000:3000`
 3. Open `http://localhost:3000` on your web browser
