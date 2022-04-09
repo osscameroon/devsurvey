@@ -50,4 +50,4 @@ jobs:
 
       - uses: peter-evans/close-issue@v1
         with:
-          comment: Your survey answer was submitted and will be deployed in few minutes.
+          comment: Your survey answer was submitted and will be deployed in few minutes here https://devsurvey.osscameroon.com.
