@@ -89,9 +89,18 @@ const handleHome = async (req: any, res: any) => {
 };
 
 app.get("/", handleHome);
+app.get("/api/v1/survey", async (req: any, res: any) => {
+    const survey = getSurvey()?.items
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(survey, null, 3));
+});
+
+
 
 app.use("/views", express.static(__dirname + "/views"));
 app.use("/res", express.static(__dirname + "/res"));
+app.use("/js", express.static(__dirname + "/js"));
 app.listen(port, () => {
   console.log(`The application is listening on port ${port}`);
 });
+
