@@ -1,5 +1,5 @@
 {
-  "name": "dev-survey",
+  "name": "devsurvey",
   "version": "1.0.0",
   "description": "minimalistic version of osscameroon recognition system",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osscameroon/dev-survey.git"
+    "url": "git+https://github.com/osscameroon/devsurvey.git"
   },
   "author": "osscameroon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/osscameroon/dev-survey/issues"
+    "url": "https://github.com/osscameroon/devsurvey/issues"
   },
-  "homepage": "https://github.com/osscameroon/dev-survey#readme",
+  "homepage": "https://github.com/osscameroon/devsurvey#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
