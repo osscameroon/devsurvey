@@ -36,3 +36,32 @@ items:
     #Which of these frameworks did you use professionnaly with a company abroad
     pro_abroad_frameworks:
       - React.js
+  - github_handle: afranck64
+    gitlab_handle: afranck64
+    city: Yaoundé
+    developer_type:
+      - Backend Developer
+      - Data scientist Developer
+      - DevOps Developer
+      - Security Developer
+    fav_languages:
+      - Python
+      - Java
+      - C/C++
+    fav_frameworks:
+      - Flask
+      - Django
+      - FastAPI
+    pro_cam_languages: []
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Python
+      - Java
+      - C#
+      - C/C++
+      - TypeScript
+    pro_abroad_frameworks:
+      - Angular
+      - Flask
+      - Django
+      - Spring
