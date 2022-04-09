@@ -47,6 +47,7 @@ jobs:
         with:
           service: devsurvey
           type: compose
+          env: prod
           patch-field: ".services.app.image"
           patch-value: ${{ steps.meta.outputs.tags }}
           file: devsurvey-stack.yml
