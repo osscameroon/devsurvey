@@ -8,5 +8,12 @@ You might need to install `yarn` and a `node` version >= 15
 
 ## How to run locally ?
 
-- Run `yarn install`
-- Run `yarn start`
+1. Run `yarn install`
+2. Run `yarn dev`
+3. Open `http://localhost:3000` on your web browser
+
+## How to run with docker
+
+1. Run `docker build . -t dev-survey`
+2. Run `docker run -it  -p 3000:3000`
+3. Open `http://localhost:3000` on your web browser

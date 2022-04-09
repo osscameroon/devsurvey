@@ -4,7 +4,7 @@ import * as helpers from "./helpers/handlebars";
 import { getSurvey, Item } from "./survey";
 import Fuse from "fuse.js";
 
-const port: number = 3001;
+const port: number = 3000;
 const limit: number = 12;
 const app = express();
 
