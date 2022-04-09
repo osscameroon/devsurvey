@@ -65,3 +65,33 @@ items:
       - Flask
       - Django
       - Spring
+  - github_handle: billyjov
+    gitlab_handle: billyjov
+    city: Bafoussam
+    developer_type:
+      - Frontend Developer
+    fav_languages:
+      - JavaScript
+      - TypeScript
+    fav_frameworks:
+      - Express
+      - Angular
+      - Angular.js
+    pro_cam_languages:
+      - JavaScript
+      - TypeScript
+    pro_cam_frameworks:
+      - React.js
+      - Express
+      - Angular
+      - Angular.js
+    pro_abroad_languages:
+      - Java
+      - JavaScript
+      - TypeScript
+    pro_abroad_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Angular.js
