@@ -167,3 +167,4 @@ items:
       - JavaScript
     pro_abroad_frameworks:
       - Flask
+  - currently_we_are_displaying_every_survey_item_on_the_front_page_it_will_be_nice_to_show_some_graphs_to_visualize_the_survey_data: "The charts can be done using chart.js and inspiration can be taken from the great [StackOverflow developer survey charts](https://insights.stackoverflow.com/survey/2021#developer-roles-dev-type)\n\nWe could have charts for these answers :\r\n- [ ] Cities\r\n- [ ] Favourite programming languages\r\n- [ ] Favourite framework\r\n- [ ] Programming languages used in Cameroon (for Cameroonian companies)\r\n- [ ] Frameworks used in Cameroon (for Cameroonian companies)"
