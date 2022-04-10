@@ -1,11 +1,13 @@
 items:
   #Which of these languages is your favourite
   - fav_languages:
-      - C
+      - C/C++
+      - C#
       - Golang
       - Rust
       - Python
       - Javascript
+      - Typescript
       - PHP
       - Bash
     github_handle: elhmn
@@ -18,11 +20,13 @@ items:
       - Typescript
     #Which of these languages did you use professionnaly with a company abroad
     pro_abroad_languages:
-      - C
+      - C/C++
+      - C#
       - Golang
       - Rust
       - Python
       - Javascript
+      - Typescript
       - PHP
       - Bash
     developer_type:
