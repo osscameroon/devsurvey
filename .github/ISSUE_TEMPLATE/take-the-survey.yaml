@@ -1,6 +1,6 @@
 name: Take the developer survey
 description: Take the cameroonian developer survey
-title: "<your github handle> takes the developer survey"
+title: "DO NOT EDIT - takes the developer survey"
 body:
   - type: input
     id: github_handle

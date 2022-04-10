@@ -6,6 +6,7 @@ concurrency: 'main'
 jobs:
   take_survey:
     runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, 'DO NOT EDIT') && contains(github.event.issue.title, 'takes the developer survey')
     steps:
       - uses: actions/checkout@v2
         with:
