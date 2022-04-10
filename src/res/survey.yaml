@@ -123,3 +123,27 @@ items:
     pro_abroad_frameworks:
       - Vue.js
       - Flask
+  - github_handle: FanJups
+    gitlab_handle: ""
+    city: Yaoundé
+    developer_type:
+      - Full stack Developer
+      - Desktop Developer
+    fav_languages:
+      - Java
+      - JavaScript
+      - TypeScript
+      - Groovy
+    fav_frameworks:
+      - jQuery
+      - Angular
+      - Spring
+      - Angular.js
+    pro_cam_languages:
+      - Java
+    pro_cam_frameworks:
+      - Spring
+    pro_abroad_languages:
+      - Java
+    pro_abroad_frameworks:
+      - Spring
