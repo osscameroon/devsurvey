@@ -147,3 +147,23 @@ items:
       - Java
     pro_abroad_frameworks:
       - Spring
+  - github_handle: abdounasser202
+    gitlab_handle: abdounasser202
+    city: Douala
+    developer_type:
+      - Developer
+    fav_languages:
+      - Python
+      - JavaScript
+    fav_frameworks:
+      - Flask
+    pro_cam_languages:
+      - Python
+      - JavaScript
+    pro_cam_frameworks:
+      - Flask
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+    pro_abroad_frameworks:
+      - Flask
