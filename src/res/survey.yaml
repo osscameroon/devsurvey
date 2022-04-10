@@ -95,3 +95,31 @@ items:
       - Express
       - Angular
       - Angular.js
+  - github_handle: Zaker237
+    gitlab_handle: Zaker237
+    city: ""
+    developer_type:
+      - Full stack Developer
+      - Data scientist Developer
+      - DevOps Developer
+      - Web Developer
+    fav_languages:
+      - Python
+      - Java
+      - JavaScript
+      - TypeScript
+      - Go
+    fav_frameworks:
+      - Angular
+      - Vue.js
+      - Flask
+      - Django
+      - FastAPI
+    pro_cam_languages: []
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+    pro_abroad_frameworks:
+      - Vue.js
+      - Flask
