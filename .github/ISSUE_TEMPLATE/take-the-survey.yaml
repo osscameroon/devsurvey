@@ -110,6 +110,7 @@ body:
         - label: Web Developer
         - label: Security Developer
         - label: Developer
+        - label: Odoo Developer
 
   - type: checkboxes
     id: fav_languages
@@ -166,6 +167,9 @@ body:
         - label: Symfony
         - label: Svelte
         - label: Drupal
+        - label: Odoo
+        - label: BackboneJS
+        - label: OWL (Odoo Web Library)
   - type: checkboxes
     id: pro_cam_languages
     attributes:
@@ -221,6 +225,9 @@ body:
         - label: Symfony
         - label: Svelte
         - label: Drupal
+        - label: Odoo
+        - label: BackboneJS
+        - label: OWL (Odoo Web Library)
   - type: checkboxes
     id: pro_abroad_languages
     attributes:
@@ -276,3 +283,6 @@ body:
         - label: Symfony
         - label: Svelte
         - label: Drupal
+        - label: Odoo
+        - label: BackboneJS
+        - label: OWL (Odoo Web Library)
