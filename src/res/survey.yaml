@@ -203,3 +203,19 @@ items:
       - Odoo
       - BackboneJS
       - OWL (Odoo Web Library)
+  - github_handle: ""
+    gitlab_handle: ""
+    city: Maroua
+    developer_type:
+      - Web Developer
+    fav_languages:
+      - VBA
+    fav_frameworks:
+      - Drupal
+    pro_cam_languages:
+      - Visual Basic
+    pro_cam_frameworks:
+      - Drupal
+    pro_abroad_languages: []
+    pro_abroad_frameworks:
+      - ASP.NET
