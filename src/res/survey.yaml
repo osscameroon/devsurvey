@@ -171,3 +171,35 @@ items:
       - JavaScript
     pro_abroad_frameworks:
       - Flask
+  - github_handle: abdounasser202
+    gitlab_handle: abdounasser202
+    city: Douala
+    developer_type:
+      - Full stack Developer
+      - Odoo Developer
+    fav_languages:
+      - Python
+      - JavaScript
+    fav_frameworks:
+      - Flask
+      - Odoo
+      - OWL (Odoo Web Library)
+    pro_cam_languages:
+      - Python
+      - JavaScript
+    pro_cam_frameworks:
+      - jQuery
+      - Flask
+      - Angular.js
+      - Odoo
+      - BackboneJS
+      - OWL (Odoo Web Library)
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+    pro_abroad_frameworks:
+      - jQuery
+      - Flask
+      - Odoo
+      - BackboneJS
+      - OWL (Odoo Web Library)
