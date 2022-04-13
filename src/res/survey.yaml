@@ -219,3 +219,36 @@ items:
     pro_abroad_languages: []
     pro_abroad_frameworks:
       - ASP.NET
+  - github_handle: airalpha
+    gitlab_handle: airalpha
+    city: Douala
+    developer_type:
+      - Mobile Developer
+      - Web Developer
+      - Developer
+    fav_languages:
+      - JavaScript
+      - PHP
+      - TypeScript
+      - Dart
+    fav_frameworks:
+      - React.js
+      - Vue.js
+      - Laravel
+    pro_cam_languages:
+      - Java
+      - JavaScript
+      - TypeScript
+      - Kotlin
+      - Dart
+    pro_cam_frameworks:
+      - React.js
+      - Express
+      - Vue.js
+      - Spring
+    pro_abroad_languages:
+      - JavaScript
+    pro_abroad_frameworks:
+      - React.js
+      - Express
+      - Vue.js
