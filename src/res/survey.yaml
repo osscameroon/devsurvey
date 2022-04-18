@@ -252,3 +252,18 @@ items:
       - React.js
       - Express
       - Vue.js
+  - github_handle: iamdipanda
+    gitlab_handle: ""
+    city: Douala
+    developer_type:
+      - Backend Developer
+    fav_languages:
+      - Go
+    fav_frameworks: []
+    pro_cam_languages:
+      - Go
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Go
+      - Rust
+    pro_abroad_frameworks: []
