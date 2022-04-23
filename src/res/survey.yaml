@@ -267,3 +267,25 @@ items:
       - Go
       - Rust
     pro_abroad_frameworks: []
+  - github_handle: ""
+    gitlab_handle: ""
+    city: Fundong
+    developer_type:
+      - Backend Developer
+      - Mobile Developer
+      - Desktop Developer
+    fav_languages:
+      - Ada
+      - Scala
+    fav_frameworks:
+      - ASP.NET Core
+      - Flask
+    pro_cam_languages:
+      - Scala
+    pro_cam_frameworks:
+      - Ruby on Rails
+      - Gatsby
+    pro_abroad_languages:
+      - Groovy
+    pro_abroad_frameworks:
+      - Drupal
