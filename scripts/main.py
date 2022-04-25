@@ -1,13 +1,12 @@
 import os
-from utils import load_yaml
+from utils import load_yaml, plot_fav_languages, plot_fav_frameworks
+from config import data_path, plot_dir
 
-DATA_PATH = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "src", "res", "survey.yaml")
 
 def main():
-    print("Hello World!")
-
-    data = load_yaml(path=DATA_PATH)["items"]
-    print(list(map(lambda x: x["github_handle"], data)))
+    data = load_yaml(path=data_path)["items"]
+    plot_fav_languages(data, path=os.path.join(plot_dir, "languages.png"))
+    plot_fav_frameworks(data, path=os.path.join(plot_dir, "frameworks.png"))
 
 
 if __name__ == "__main__":
