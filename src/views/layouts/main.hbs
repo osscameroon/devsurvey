@@ -29,5 +29,173 @@
   </head>
   <body style="font-family: 'Poppins', sans-serif; font-weight: 400;">
 	{{{body}}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+  <script>
+    new Chart(document.getElementById("polar-chart"), {
+    type: 'polarArea',
+    data: {
+      labels: [
+      "Django", "Reactjs", "VueJs", 
+      "Express", "AngularJs", "Flask",
+       "FastAPI", "Spring", "Odoo",
+        "Laravel"
+        ],
+      datasets: [
+        {
+          label: "Devs preferred frameworks",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+          {{{ findingFramework 'django'}}},
+          {{{ findingFramework 'react.js'}}},
+          {{{ findingFramework 'vue.js'}}},
+          {{{ findingFramework 'express'}}},
+          {{{sum (findingFramework 'angular') (findingFramework 'angular.js')}}},
+          {{{findingFramework 'flask'}}},
+          {{{findingFramework 'fastapi'}}},
+          {{{findingFramework 'spring'}}},
+          {{{findingFramework 'odoo'}}},
+          {{{findingFramework 'laravel'}}}
+          ],
+        }
+      ]
+    },
+    plugins: {
+      legend: {
+        text: "hello",
+        display: true,
+        position: "right",
+        fontSize: "20px",
+          labels: {
+            color: 'rgb(255, 99, 132)'
+                }
+            }
+          },
+    options: {
+      title: {
+        display: true,
+        text: 'Predicted world population (millions) in 2050'
+      }
+    }
+});
+  </script>
+    <script>
+    new Chart(document.getElementById("bar-chart"), {
+    type: 'bar',
+    data: {
+      labels: [
+      "Python", "Go", "Java", "PHP", "JavaScript",
+      "Rust", "C++", "C#", "TypeScript", "Swift", "Kotlin",
+      "Dart", "Ruby", "Groovy", "VBA"
+        ],
+      datasets: [
+        {
+          label: "Devs Favorite programming Language",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+            {{{ findingLanguage 'python' }}},
+            {{{ sum (findingLanguage 'go')(findingLanguage 'golang') }}},
+            {{{ findingLanguage 'java'}}},
+            {{{ findingLanguage 'php'}}},
+            {{{ findingLanguage 'javascript'}}},
+            {{{ findingLanguage 'rust'}}},
+            {{{ findingLanguage 'C/C++'}}},
+            {{{ findingLanguage 'c#'}}},
+            {{{ findingLanguage 'typescript'}}},
+            {{{ findingLanguage 'swift'}}},
+            {{{ findingLanguage 'kotlin'}}},
+            {{{ findingLanguage 'dart'}}},
+            {{{ findingLanguage 'ruby'}}},
+            {{{ findingLanguage 'groovy'}}},
+            {{{ findingLanguage 'vba'}}}
+          ]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
+  <script>
+    new Chart(document.getElementById("line-chart"), {
+    type: 'line',
+    data: {
+      labels: [
+      "Python", "Go", "Java", "PHP", "JavaScript",
+      "Rust", "C++", "C#", "TypeScript", "Swift", "Kotlin",
+      "Dart", "Ruby", "Groovy", "VBA"
+        ],
+      datasets: [
+        {
+          label: "Camer Devs Favorite programming Language",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+            {{{ findingCamerLanguage 'python' }}},
+            {{{ sum (findingLanguage 'go')(findingLanguage 'golang') }}},
+            {{{ findingCamerLanguage 'java'}}},
+            {{{ findingCamerLanguage 'php'}}},
+            {{{ findingCamerLanguage 'javascript'}}},
+            {{{ findingCamerLanguage 'rust'}}},
+            {{{ findingCamerLanguage 'C/C++'}}},
+            {{{ findingCamerLanguage 'c#'}}},
+            {{{ findingCamerLanguage 'typescript'}}},
+            {{{ findingCamerLanguage 'swift'}}},
+            {{{ findingCamerLanguage 'kotlin'}}},
+            {{{ findingCamerLanguage 'dart'}}},
+            {{{ findingCamerLanguage 'ruby'}}},
+            {{{ findingCamerLanguage 'groovy'}}},
+            {{{ findingCamerLanguage 'vba'}}}
+          ]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
+  <script>
+    new Chart(document.getElementById("pie-chart"), {
+    type: 'pie',
+    data: {
+      labels: [
+      "Django", "Reactjs", "VueJs", 
+      "Express", "AngularJs", "Flask",
+       "FastAPI", "Spring", "Odoo",
+        "Laravel"
+        ],
+      datasets: [
+        {
+          label: "Camer Devs Favorite programming frameworks",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+          {{{ findingFramework 'django'}}},
+          {{{ findingFramework 'react.js'}}},
+          {{{ findingFramework 'vue.js'}}},
+          {{{ findingFramework 'express'}}},
+          {{{ sum (findingFramework 'angular') (findingFramework 'angular.js')}}},
+          {{{findingFramework 'flask'}}},
+          {{{findingFramework 'fastapi'}}},
+          {{{findingFramework 'spring'}}},
+          {{{findingFramework 'odoo'}}},
+          {{{findingFramework 'laravel'}}}
+          ],
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
   </body>
 </html>
