@@ -1,7 +1,8 @@
 import fs from "fs";
 import * as yaml from "js-yaml";
+import path from "path";
 
-let fileContents = fs.readFileSync(__dirname + "/res/survey.yaml", "utf8");
+let fileContents = fs.readFileSync(path.join( __dirname ,"..","/res/survey.yaml"), "utf8");
 let data: any = yaml.load(fileContents);
 
 export function findingLanguage(language: string) {
