@@ -289,3 +289,42 @@ items:
       - Groovy
     pro_abroad_frameworks:
       - Drupal
+  - github_handle: epok07
+    gitlab_handle: ""
+    city: Douala
+    developer_type:
+      - Frontend Developer
+      - Backend Developer
+      - Full stack Developer
+      - DevOps Developer
+      - Web Developer
+    fav_languages:
+      - JavaScript
+      - PHP
+      - Dart
+    fav_frameworks:
+      - jQuery
+      - Express
+      - Angular
+      - Vue.js
+      - Angular.js
+      - Laravel
+    pro_cam_languages:
+      - JavaScript
+      - PHP
+      - TypeScript
+    pro_cam_frameworks:
+      - jQuery
+      - Angular
+      - Vue.js
+      - Angular.js
+    pro_abroad_languages:
+      - JavaScript
+      - PHP
+    pro_abroad_frameworks:
+      - jQuery
+      - Angular
+      - Vue.js
+      - ASP.NET
+      - Angular.js
+      - Laravel
