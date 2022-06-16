@@ -1,0 +1,288 @@
+name: Take the developer survey
+description: Take the cameroonian developer survey
+title: "DO NOT EDIT - takes the developer survey"
+body:
+  - type: input
+    id: github_handle
+    attributes:
+      label:  What is your github handle ?
+      description: give us your github handle, you can find it at the end of your https://github.com/<handle>
+  - type: input
+    id: gitlab_handle
+    attributes:
+      label:  What is your gitlab handle ?
+      description: give us your gitlab handle, you can find it at the end of your https://gitlab.com/<handle>
+  - type: dropdown
+    id: city
+    attributes:
+      label:  Which city do you live in ?
+      options:
+        - Douala
+        - Yaoundé
+        - Garoua
+        - Bamenda
+        - Maroua
+        - Nkongsamba
+        - Bafoussam
+        - Ngaoundéré
+        - Bertoua
+        - Loum
+        - Kumba
+        - Edéa
+        - Kumbo
+        - Foumban
+        - Mbouda
+        - Dschang
+        - Limbé
+        - Ebolowa
+        - Kousséri
+        - Guider
+        - Meiganga
+        - Yagoua
+        - Mbalmayo
+        - Bafang
+        - Tiko
+        - Bafia
+        - Wum
+        - Kribi
+        - Buea
+        - Sangmélima
+        - Foumbot
+        - Bangangté
+        - Batouri
+        - Banyo
+        - Nkambé
+        - Bali
+        - Mbanga
+        - Mokolo
+        - Melong
+        - Manjo
+        - Garoua-Boulaï
+        - Mora
+        - Kaélé
+        - Tibati
+        - Ndop
+        - Akonolinga
+        - Eséka
+        - Mamfé
+        - Obala
+        - Muyuka
+        - Nanga-Eboko
+        - Abong-Mbang
+        - Fundong
+        - Nkoteng
+        - Fontem
+        - Mbandjock
+        - Touboro
+        - Ngaoundal
+        - Yokadouma
+        - Pitoa
+        - Tombel
+        - Kékem
+        - Magba
+        - Bélabo
+        - Tonga
+        - Maga
+        - Koutaba
+        - Blangoua
+        - Guidiguis
+        - Bogo
+        - Batibo
+        - Yabassi
+        - Figuil
+        - Makénéné
+        - Gazawa
+        - Tcholliré
+  - type: checkboxes
+    id: developer_type
+    attributes:
+      label: What type of developer are you ?
+      options:
+        - label: Frontend Developer
+        - label: Backend Developer
+        - label: Full stack Developer
+        - label: Mobile Developer
+        - label: Desktop Developer
+        - label: Game Developer
+        - label: Data scientist Developer
+        - label: DevOps Developer
+        - label: Embedded developer
+        - label: Web Developer
+        - label: Security Developer
+        - label: Developer
+        - label: Odoo Developer
+
+  - type: checkboxes
+    id: fav_languages
+    attributes:
+      label:  What are your favourite language ?
+      options:
+        - label: "Python"
+        - label: "Java"
+        - label: "JavaScript"
+        - label: "C#"
+        - label: "C/C++"
+        - label: "PHP"
+        - label: "R"
+        - label: "TypeScript"
+        - label: "Objective-C"
+        - label: "Swift"
+        - label: "Matlab"
+        - label: "Kotlin"
+        - label: "Go"
+        - label: "Rust"
+        - label: "Ruby"
+        - label: "VBA"
+        - label: "Ada"
+        - label: "Scala"
+        - label: "Dart"
+        - label: "Abap"
+        - label: "Visual Basic"
+        - label: "Lua"
+        - label: "Groovy"
+        - label: "Perl"
+        - label: "Julia"
+        - label: "Haskell"
+        - label: "Cobol"
+  - type: checkboxes
+    id: fav_frameworks
+    attributes:
+      label:  What are your favourite frameworks ?
+      options:
+        - label: React.js
+        - label: jQuery
+        - label: Express
+        - label: Angular
+        - label: Vue.js
+        - label: ASP.NET Core
+        - label: Flask
+        - label: ASP.NET
+        - label: Django
+        - label: Spring
+        - label: Angular.js
+        - label: Laravel
+        - label: Ruby on Rails
+        - label: Gatsby
+        - label: FastAPI
+        - label: Symfony
+        - label: Svelte
+        - label: Drupal
+        - label: Odoo
+        - label: BackboneJS
+        - label: OWL (Odoo Web Library)
+  - type: checkboxes
+    id: pro_cam_languages
+    attributes:
+      label: What are the languages you have used at Cameroonian companies ?
+      options:
+        - label: "Python"
+        - label: "Java"
+        - label: "JavaScript"
+        - label: "C#"
+        - label: "C/C++"
+        - label: "PHP"
+        - label: "R"
+        - label: "TypeScript"
+        - label: "Objective-C"
+        - label: "Swift"
+        - label: "Matlab"
+        - label: "Kotlin"
+        - label: "Go"
+        - label: "Rust"
+        - label: "Ruby"
+        - label: "VBA"
+        - label: "Ada"
+        - label: "Scala"
+        - label: "Dart"
+        - label: "Abap"
+        - label: "Visual Basic"
+        - label: "Lua"
+        - label: "Groovy"
+        - label: "Perl"
+        - label: "Julia"
+        - label: "Haskell"
+        - label: "Cobol"
+  - type: checkboxes
+    id: pro_cam_frameworks
+    attributes:
+      label: What are the frameworks you have used at Cameroonian companies ?
+      options:
+        - label: React.js
+        - label: jQuery
+        - label: Express
+        - label: Angular
+        - label: Vue.js
+        - label: ASP.NET Core
+        - label: Flask
+        - label: ASP.NET
+        - label: Django
+        - label: Spring
+        - label: Angular.js
+        - label: Laravel
+        - label: Ruby on Rails
+        - label: Gatsby
+        - label: FastAPI
+        - label: Symfony
+        - label: Svelte
+        - label: Drupal
+        - label: Odoo
+        - label: BackboneJS
+        - label: OWL (Odoo Web Library)
+  - type: checkboxes
+    id: pro_abroad_languages
+    attributes:
+      label: What are the languages you have used at remote companies ?
+      options:
+        - label: "Python"
+        - label: "Java"
+        - label: "JavaScript"
+        - label: "C#"
+        - label: "C/C++"
+        - label: "PHP"
+        - label: "R"
+        - label: "TypeScript"
+        - label: "Objective-C"
+        - label: "Swift"
+        - label: "Matlab"
+        - label: "Kotlin"
+        - label: "Go"
+        - label: "Rust"
+        - label: "Ruby"
+        - label: "VBA"
+        - label: "Ada"
+        - label: "Scala"
+        - label: "Dart"
+        - label: "Abap"
+        - label: "Visual Basic"
+        - label: "Lua"
+        - label: "Groovy"
+        - label: "Perl"
+        - label: "Julia"
+        - label: "Haskell"
+        - label: "Cobol"
+  - type: checkboxes
+    id: pro_abroad_frameworks
+    attributes:
+      label: What are the frameworks you have used at remote companies ?
+      options:
+        - label: React.js
+        - label: jQuery
+        - label: Express
+        - label: Angular
+        - label: Vue.js
+        - label: ASP.NET Core
+        - label: Flask
+        - label: ASP.NET
+        - label: Django
+        - label: Spring
+        - label: Angular.js
+        - label: Laravel
+        - label: Ruby on Rails
+        - label: Gatsby
+        - label: FastAPI
+        - label: Symfony
+        - label: Svelte
+        - label: Drupal
+        - label: Odoo
+        - label: BackboneJS
+        - label: OWL (Odoo Web Library)

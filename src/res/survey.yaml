@@ -1,0 +1,291 @@
+items:
+  #Which of these languages is your favourite
+  - fav_languages:
+      - C/C++
+      - C#
+      - Golang
+      - Rust
+      - Python
+      - Javascript
+      - Typescript
+      - PHP
+      - Bash
+    github_handle: elhmn
+    gitlab_handle: elhmn
+    #The city you are living in
+    city: Douala
+    #Which of these languages did you use professionnaly with a company located in Cameroon
+    pro_cam_languages:
+      - Python
+      - Typescript
+    #Which of these languages did you use professionnaly with a company abroad
+    pro_abroad_languages:
+      - C/C++
+      - C#
+      - Golang
+      - Rust
+      - Python
+      - Javascript
+      - Typescript
+      - PHP
+      - Bash
+    developer_type:
+      - Developer
+    fav_frameworks:
+      - Unity
+      - React.js
+    #Which of these frameworks did you use professionnaly with a Cameroonian company
+    pro_cam_frameworks:
+      - Unity
+    #Which of these frameworks did you use professionnaly with a company abroad
+    pro_abroad_frameworks:
+      - React.js
+  - github_handle: afranck64
+    gitlab_handle: afranck64
+    city: Yaoundé
+    developer_type:
+      - Backend Developer
+      - Data scientist Developer
+      - DevOps Developer
+      - Security Developer
+    fav_languages:
+      - Python
+      - Java
+      - C/C++
+    fav_frameworks:
+      - Flask
+      - Django
+      - FastAPI
+    pro_cam_languages: []
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Python
+      - Java
+      - C#
+      - C/C++
+      - TypeScript
+    pro_abroad_frameworks:
+      - Angular
+      - Flask
+      - Django
+      - Spring
+  - github_handle: billyjov
+    gitlab_handle: billyjov
+    city: Bafoussam
+    developer_type:
+      - Frontend Developer
+    fav_languages:
+      - JavaScript
+      - TypeScript
+    fav_frameworks:
+      - Express
+      - Angular
+      - Angular.js
+    pro_cam_languages:
+      - JavaScript
+      - TypeScript
+    pro_cam_frameworks:
+      - React.js
+      - Express
+      - Angular
+      - Angular.js
+    pro_abroad_languages:
+      - Java
+      - JavaScript
+      - TypeScript
+    pro_abroad_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Angular.js
+  - github_handle: Zaker237
+    gitlab_handle: Zaker237
+    city: ""
+    developer_type:
+      - Full stack Developer
+      - Data scientist Developer
+      - DevOps Developer
+      - Web Developer
+    fav_languages:
+      - Python
+      - Java
+      - JavaScript
+      - TypeScript
+      - Go
+    fav_frameworks:
+      - Angular
+      - Vue.js
+      - Flask
+      - Django
+      - FastAPI
+    pro_cam_languages: []
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+    pro_abroad_frameworks:
+      - Vue.js
+      - Flask
+  - github_handle: FanJups
+    gitlab_handle: ""
+    city: Yaoundé
+    developer_type:
+      - Full stack Developer
+      - Desktop Developer
+    fav_languages:
+      - Java
+      - JavaScript
+      - TypeScript
+      - Groovy
+    fav_frameworks:
+      - jQuery
+      - Angular
+      - Spring
+      - Angular.js
+    pro_cam_languages:
+      - Java
+    pro_cam_frameworks:
+      - Spring
+    pro_abroad_languages:
+      - Java
+    pro_abroad_frameworks:
+      - Spring
+  - github_handle: abdounasser202
+    gitlab_handle: abdounasser202
+    city: Douala
+    developer_type:
+      - Developer
+    fav_languages:
+      - Python
+      - JavaScript
+    fav_frameworks:
+      - Flask
+    pro_cam_languages:
+      - Python
+      - JavaScript
+    pro_cam_frameworks:
+      - Flask
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+    pro_abroad_frameworks:
+      - Flask
+  - github_handle: abdounasser202
+    gitlab_handle: abdounasser202
+    city: Douala
+    developer_type:
+      - Full stack Developer
+      - Odoo Developer
+    fav_languages:
+      - Python
+      - JavaScript
+    fav_frameworks:
+      - Flask
+      - Odoo
+      - OWL (Odoo Web Library)
+    pro_cam_languages:
+      - Python
+      - JavaScript
+    pro_cam_frameworks:
+      - jQuery
+      - Flask
+      - Angular.js
+      - Odoo
+      - BackboneJS
+      - OWL (Odoo Web Library)
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+    pro_abroad_frameworks:
+      - jQuery
+      - Flask
+      - Odoo
+      - BackboneJS
+      - OWL (Odoo Web Library)
+  - github_handle: ""
+    gitlab_handle: ""
+    city: Maroua
+    developer_type:
+      - Web Developer
+    fav_languages:
+      - VBA
+    fav_frameworks:
+      - Drupal
+    pro_cam_languages:
+      - Visual Basic
+    pro_cam_frameworks:
+      - Drupal
+    pro_abroad_languages: []
+    pro_abroad_frameworks:
+      - ASP.NET
+  - github_handle: airalpha
+    gitlab_handle: airalpha
+    city: Douala
+    developer_type:
+      - Mobile Developer
+      - Web Developer
+      - Developer
+    fav_languages:
+      - JavaScript
+      - PHP
+      - TypeScript
+      - Dart
+    fav_frameworks:
+      - React.js
+      - Vue.js
+      - Laravel
+    pro_cam_languages:
+      - Java
+      - JavaScript
+      - TypeScript
+      - Kotlin
+      - Dart
+    pro_cam_frameworks:
+      - React.js
+      - Express
+      - Vue.js
+      - Spring
+    pro_abroad_languages:
+      - JavaScript
+    pro_abroad_frameworks:
+      - React.js
+      - Express
+      - Vue.js
+  - github_handle: iamdipanda
+    gitlab_handle: ""
+    city: Douala
+    developer_type:
+      - Backend Developer
+    fav_languages:
+      - Go
+    fav_frameworks: []
+    pro_cam_languages:
+      - Go
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Go
+      - Rust
+    pro_abroad_frameworks: []
+  - github_handle: ""
+    gitlab_handle: ""
+    city: Fundong
+    developer_type:
+      - Backend Developer
+      - Mobile Developer
+      - Desktop Developer
+    fav_languages:
+      - Ada
+      - Scala
+    fav_frameworks:
+      - ASP.NET Core
+      - Flask
+    pro_cam_languages:
+      - Scala
+    pro_cam_frameworks:
+      - Ruby on Rails
+      - Gatsby
+    pro_abroad_languages:
+      - Groovy
+    pro_abroad_frameworks:
+      - Drupal
