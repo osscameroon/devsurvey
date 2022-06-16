@@ -328,3 +328,22 @@ items:
       - ASP.NET
       - Angular.js
       - Laravel
+  - github_handle: ss
+    gitlab_handle: sss
+    city: Bafoussam
+    developer_type:
+      - Frontend Developer
+      - Mobile Developer
+      - Embedded developer
+    fav_languages:
+      - Kotlin
+      - Scala
+    fav_frameworks:
+      - ASP.NET
+      - Ruby on Rails
+    pro_cam_languages: []
+    pro_cam_frameworks:
+      - Angular
+    pro_abroad_languages: []
+    pro_abroad_frameworks:
+      - Django
