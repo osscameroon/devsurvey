@@ -347,3 +347,36 @@ items:
     pro_abroad_languages: []
     pro_abroad_frameworks:
       - Django
+  - github_handle: rayekov
+    gitlab_handle: rayekov
+    city: Yaoundé
+    developer_type:
+      - Full stack Developer
+      - Desktop Developer
+      - Web Developer
+    fav_languages:
+      - Python
+      - JavaScript
+      - C#
+      - PHP
+    fav_frameworks:
+      - React.js
+      - ASP.NET Core
+      - ASP.NET
+      - Symfony
+    pro_cam_languages:
+      - Python
+      - JavaScript
+      - PHP
+    pro_cam_frameworks:
+      - jQuery
+      - Symfony
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+      - C#
+      - PHP
+    pro_abroad_frameworks:
+      - ASP.NET Core
+      - ASP.NET
+      - Symfony
