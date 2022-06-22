@@ -380,3 +380,41 @@ items:
       - ASP.NET Core
       - ASP.NET
       - Symfony
+  - github_handle: Wdjopa
+    gitlab_handle: Wdjopa
+    city: Yaoundé
+    developer_type:
+      - Frontend Developer
+      - Backend Developer
+      - Full stack Developer
+      - Mobile Developer
+    fav_languages:
+      - JavaScript
+      - PHP
+      - Dart
+    fav_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Laravel
+    pro_cam_languages:
+      - JavaScript
+      - PHP
+      - Dart
+    pro_cam_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Laravel
+    pro_abroad_languages:
+      - JavaScript
+      - PHP
+      - Dart
+    pro_abroad_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Laravel
