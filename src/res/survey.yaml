@@ -453,3 +453,22 @@ items:
       - React.js
       - Angular
       - Vue.js
+  - github_handle: test-2
+    gitlab_handle: ""
+    city: Yaoundé
+    developer_type:
+      - Backend Developer
+      - Full stack Developer
+    fav_languages:
+      - JavaScript
+      - C/C++
+    fav_frameworks:
+      - Angular
+    pro_cam_languages:
+      - Perl
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Rust
+      - Ruby
+    pro_abroad_frameworks:
+      - Drupal
