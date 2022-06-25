@@ -472,3 +472,26 @@ items:
       - Ruby
     pro_abroad_frameworks:
       - Drupal
+  - github_handle: ln-dev7
+    gitlab_handle: ln-dev7
+    city: Yaoundé
+    developer_type:
+      - Frontend Developer
+      - Mobile Developer
+      - Web Developer
+      - Developer
+    fav_languages:
+      - JavaScript
+      - Dart
+    fav_frameworks:
+      - React.js
+      - Vue.js
+      - Svelte
+    pro_cam_languages:
+      - JavaScript
+    pro_cam_frameworks:
+      - React.js
+    pro_abroad_languages:
+      - JavaScript
+    pro_abroad_frameworks:
+      - React.js
