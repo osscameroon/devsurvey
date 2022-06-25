@@ -418,3 +418,38 @@ items:
       - Express
       - Angular
       - Laravel
+  - github_handle: asam237
+    gitlab_handle: asam237
+    city: Mokolo
+    developer_type:
+      - Frontend Developer
+      - Backend Developer
+      - Mobile Developer
+      - Web Developer
+    fav_languages:
+      - JavaScript
+      - TypeScript
+      - Kotlin
+      - Dart
+    fav_frameworks:
+      - React.js
+      - Express
+      - Vue.js
+    pro_cam_languages:
+      - JavaScript
+      - TypeScript
+      - Kotlin
+      - Dart
+    pro_cam_frameworks:
+      - React.js
+      - Express
+      - Vue.js
+    pro_abroad_languages:
+      - JavaScript
+      - TypeScript
+      - Kotlin
+      - Dart
+    pro_abroad_frameworks:
+      - React.js
+      - Angular
+      - Vue.js
