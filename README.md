@@ -15,5 +15,5 @@ You might need to install `yarn` and a `node` version >= 15
 ## How to run with docker
 
 1. Run `docker build . -t devsurvey`
-2. Run `docker run -it  -p 3000:3000`
+2. Run `docker run -it -p 3000:3000 devsurvey`
 3. Open `http://localhost:3000` on your web browser
