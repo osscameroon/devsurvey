@@ -29,5 +29,177 @@
   </head>
   <body style="font-family: 'Poppins', sans-serif; font-weight: 400;">
 	{{{body}}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+  <script>
+    new Chart(document.getElementById("polar-chart"), {
+    type: 'polarArea',
+    data: {
+      labels: [
+      "Django", "Reactjs", "VueJs", 
+      "Express", "AngularJs", "Flask",
+       "FastAPI", "Spring", "Odoo",
+        "Laravel"
+        ],
+      datasets: [
+        {
+          label: "Devs preferred frameworks",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+          {{{ findingSomething 'fav_frameworks' 'django'}}},
+          {{{  findingSomething 'fav_frameworks' 'react.js'}}},
+          {{{  findingSomething 'fav_frameworks' 'vue.js'}}},
+          {{{  findingSomething 'fav_frameworks' 'express'}}},
+          {{{sum ( findingSomething 'fav_frameworks' 'angular')
+           ( findingSomething 'fav_frameworks' 'angular.js')}}},
+          {{{ findingSomething 'fav_frameworks' 'flask'}}},
+          {{{ findingSomething 'fav_frameworks' 'fastapi'}}},
+          {{{ findingSomething 'fav_frameworks' 'spring'}}},
+          {{{ findingSomething 'fav_frameworks' 'odoo'}}},
+          {{{ findingSomething 'fav_frameworks' 'laravel'}}}
+          ],
+        }
+      ]
+    },
+    plugins: {
+      legend: {
+        text: "hello",
+        display: true,
+        position: "right",
+        fontSize: "20px",
+          labels: {
+            color: 'rgb(255, 99, 132)'
+                }
+            }
+          },
+    options: {
+      title: {
+        display: true,
+        text: ''
+      }
+    }
+});
+  </script>
+  <script>
+    new Chart(document.getElementById("line-chart"), {
+    type: 'line',
+    data: {
+      labels: [
+      "Python", "Go", "Java", "PHP", "JavaScript",
+      "Rust", "C++", "C#", "TypeScript", "Swift", "Kotlin",
+      "Dart", "Ruby", "Groovy", "VBA"
+        ],
+      datasets: [
+        {
+          label: "Devs Favorite programming Language",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+            {{{ findingSomething 'pro_cam_languages' 'python' }}},
+            {{{ sum ( findingSomething 'fav_languages' 'go')
+            ( findingSomething 'fav_languages' 'golang') }}},
+            {{{ findingSomething 'pro_cam_languages' 'java'}}},
+            {{{ findingSomething 'pro_cam_languages' 'php'}}},
+            {{{ findingSomething 'pro_cam_languages' 'javascript'}}},
+            {{{ findingSomething 'pro_cam_languages' 'rust'}}},
+            {{{ findingSomething 'pro_cam_languages' 'C/C++'}}},
+            {{{ findingSomething 'pro_cam_languages' 'c#'}}},
+            {{{ findingSomething 'pro_cam_languages' 'typescript'}}},
+            {{{ findingSomething 'pro_cam_languages' 'swift'}}},
+            {{{ findingSomething 'pro_cam_languages' 'kotlin'}}},
+            {{{ findingSomething 'pro_cam_languages' 'dart'}}},
+            {{{ findingSomething 'pro_cam_languages' 'ruby'}}},
+            {{{ findingSomething 'pro_cam_languages' 'groovy'}}},
+            {{{ findingSomething 'pro_cam_languages' 'vba'}}}
+          ]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
+<script>
+    new Chart(document.getElementById("bar-chart"), {
+    type: 'bar',
+    data: {
+      labels: [
+      "Python", "Go", "Java", "PHP", "JavaScript",
+      "Rust", "C++", "C#", "TypeScript", "Swift", "Kotlin",
+      "Dart", "Ruby", "Groovy", "VBA"
+        ],
+      datasets: [
+        {
+          label: "Camer Devs Favorite programming Language",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+            {{{ findingSomething 'fav_languages' 'python' }}},
+            {{{ sum (findingSomething 'fav_languages' 'go')
+            (findingSomething 'fav_languages' 'golang') }}},
+            {{{ findingSomething 'fav_languages' 'java'}}},
+            {{{ findingSomething 'fav_languages' 'php'}}},
+            {{{ findingSomething 'fav_languages' 'javascript'}}},
+            {{{ findingSomething 'fav_languages' 'rust'}}},
+            {{{ findingSomething 'fav_languages' 'C/C++'}}},
+            {{{ findingSomething 'fav_languages' 'c#'}}},
+            {{{ findingSomething 'fav_languages' 'typescript'}}},
+            {{{ findingSomething 'fav_languages' 'swift'}}},
+            {{{ findingSomething 'fav_languages' 'kotlin'}}},
+            {{{ findingSomething 'fav_languages' 'dart'}}},
+            {{{ findingSomething 'fav_languages' 'ruby'}}},
+            {{{ findingSomething 'fav_languages' 'groovy'}}},
+            {{{ findingSomething 'fav_languages' 'vba'}}}
+          ]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
+  <script>
+    new Chart(document.getElementById("pie-chart"), {
+    type: 'pie',
+    data: {
+      labels: [
+      "Django", "Reactjs", "VueJs", 
+      "Express", "AngularJs", "Flask",
+       "FastAPI", "Spring", "Odoo",
+        "Laravel"
+        ],
+      datasets: [
+        {
+          label: "Camer Devs Favorite programming frameworks",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+          {{{  findingSomething 'fav_frameworks' 'django'}}},
+          {{{  findingSomething 'fav_frameworks' 'react.js'}}},
+          {{{  findingSomething 'fav_frameworks' 'vue.js'}}},
+          {{{  findingSomething 'fav_frameworks' 'express'}}},
+          {{{ sum ( findingSomething 'fav_frameworks' 'angular') 
+          ( findingSomething 'fav_frameworks' 'angular.js')}}},
+          {{{ findingSomething 'fav_frameworks' 'flask'}}},
+          {{{ findingSomething 'fav_frameworks' 'fastapi'}}},
+          {{{ findingSomething 'fav_frameworks' 'spring'}}},
+          {{{ findingSomething 'fav_frameworks' 'odoo'}}},
+          {{{ findingSomething 'fav_frameworks' 'laravel'}}}
+          ],
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
   </body>
 </html>
