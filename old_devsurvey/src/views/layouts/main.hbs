@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="website that list useful applications, whatsapp, facebook or telegram groups or channel for Cameroonians">
+    <title>Dev survey</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/01eaab00f1.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WB7BVLNTNP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WB7BVLNTNP');
+    </script>
+    <style>
+        .dev-card {
+            border: solid 1px rgba(51, 51, 51, 0.25);
+            border-radius: 5px;
+            padding: 10px;
+        }
+    </style>
+  </head>
+  <body style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+	{{{body}}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+  <script>
+    new Chart(document.getElementById("polar-chart"), {
+    type: 'polarArea',
+    data: {
+      labels: [
+      "Django", "Reactjs", "VueJs", 
+      "Express", "AngularJs", "Flask",
+       "FastAPI", "Spring", "Odoo",
+        "Laravel"
+        ],
+      datasets: [
+        {
+          label: "Devs preferred frameworks",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+          {{{ findingSomething 'fav_frameworks' 'django'}}},
+          {{{  findingSomething 'fav_frameworks' 'react.js'}}},
+          {{{  findingSomething 'fav_frameworks' 'vue.js'}}},
+          {{{  findingSomething 'fav_frameworks' 'express'}}},
+          {{{sum ( findingSomething 'fav_frameworks' 'angular')
+           ( findingSomething 'fav_frameworks' 'angular.js')}}},
+          {{{ findingSomething 'fav_frameworks' 'flask'}}},
+          {{{ findingSomething 'fav_frameworks' 'fastapi'}}},
+          {{{ findingSomething 'fav_frameworks' 'spring'}}},
+          {{{ findingSomething 'fav_frameworks' 'odoo'}}},
+          {{{ findingSomething 'fav_frameworks' 'laravel'}}}
+          ],
+        }
+      ]
+    },
+    plugins: {
+      legend: {
+        text: "hello",
+        display: true,
+        position: "right",
+        fontSize: "20px",
+          labels: {
+            color: 'rgb(255, 99, 132)'
+                }
+            }
+          },
+    options: {
+      title: {
+        display: true,
+        text: ''
+      }
+    }
+});
+  </script>
+  <script>
+    new Chart(document.getElementById("line-chart"), {
+    type: 'line',
+    data: {
+      labels: [
+      "Python", "Go", "Java", "PHP", "JavaScript",
+      "Rust", "C++", "C#", "TypeScript", "Swift", "Kotlin",
+      "Dart", "Ruby", "Groovy", "VBA"
+        ],
+      datasets: [
+        {
+          label: "Devs Favorite programming Language",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+            {{{ findingSomething 'pro_cam_languages' 'python' }}},
+            {{{ sum ( findingSomething 'fav_languages' 'go')
+            ( findingSomething 'fav_languages' 'golang') }}},
+            {{{ findingSomething 'pro_cam_languages' 'java'}}},
+            {{{ findingSomething 'pro_cam_languages' 'php'}}},
+            {{{ findingSomething 'pro_cam_languages' 'javascript'}}},
+            {{{ findingSomething 'pro_cam_languages' 'rust'}}},
+            {{{ findingSomething 'pro_cam_languages' 'C/C++'}}},
+            {{{ findingSomething 'pro_cam_languages' 'c#'}}},
+            {{{ findingSomething 'pro_cam_languages' 'typescript'}}},
+            {{{ findingSomething 'pro_cam_languages' 'swift'}}},
+            {{{ findingSomething 'pro_cam_languages' 'kotlin'}}},
+            {{{ findingSomething 'pro_cam_languages' 'dart'}}},
+            {{{ findingSomething 'pro_cam_languages' 'ruby'}}},
+            {{{ findingSomething 'pro_cam_languages' 'groovy'}}},
+            {{{ findingSomething 'pro_cam_languages' 'vba'}}}
+          ]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
+<script>
+    new Chart(document.getElementById("bar-chart"), {
+    type: 'bar',
+    data: {
+      labels: [
+      "Python", "Go", "Java", "PHP", "JavaScript",
+      "Rust", "C++", "C#", "TypeScript", "Swift", "Kotlin",
+      "Dart", "Ruby", "Groovy", "VBA"
+        ],
+      datasets: [
+        {
+          label: "Camer Devs Favorite programming Language",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+            {{{ findingSomething 'fav_languages' 'python' }}},
+            {{{ sum (findingSomething 'fav_languages' 'go')
+            (findingSomething 'fav_languages' 'golang') }}},
+            {{{ findingSomething 'fav_languages' 'java'}}},
+            {{{ findingSomething 'fav_languages' 'php'}}},
+            {{{ findingSomething 'fav_languages' 'javascript'}}},
+            {{{ findingSomething 'fav_languages' 'rust'}}},
+            {{{ findingSomething 'fav_languages' 'C/C++'}}},
+            {{{ findingSomething 'fav_languages' 'c#'}}},
+            {{{ findingSomething 'fav_languages' 'typescript'}}},
+            {{{ findingSomething 'fav_languages' 'swift'}}},
+            {{{ findingSomething 'fav_languages' 'kotlin'}}},
+            {{{ findingSomething 'fav_languages' 'dart'}}},
+            {{{ findingSomething 'fav_languages' 'ruby'}}},
+            {{{ findingSomething 'fav_languages' 'groovy'}}},
+            {{{ findingSomething 'fav_languages' 'vba'}}}
+          ]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
+  <script>
+    new Chart(document.getElementById("pie-chart"), {
+    type: 'pie',
+    data: {
+      labels: [
+      "Django", "Reactjs", "VueJs", 
+      "Express", "AngularJs", "Flask",
+       "FastAPI", "Spring", "Odoo",
+        "Laravel"
+        ],
+      datasets: [
+        {
+          label: "Camer Devs Favorite programming frameworks",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+          data: [
+          {{{  findingSomething 'fav_frameworks' 'django'}}},
+          {{{  findingSomething 'fav_frameworks' 'react.js'}}},
+          {{{  findingSomething 'fav_frameworks' 'vue.js'}}},
+          {{{  findingSomething 'fav_frameworks' 'express'}}},
+          {{{ sum ( findingSomething 'fav_frameworks' 'angular') 
+          ( findingSomething 'fav_frameworks' 'angular.js')}}},
+          {{{ findingSomething 'fav_frameworks' 'flask'}}},
+          {{{ findingSomething 'fav_frameworks' 'fastapi'}}},
+          {{{ findingSomething 'fav_frameworks' 'spring'}}},
+          {{{ findingSomething 'fav_frameworks' 'odoo'}}},
+          {{{ findingSomething 'fav_frameworks' 'laravel'}}}
+          ],
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Favorite programming languages'
+      }
+    }
+});
+  </script>
+  </body>
+</html>
