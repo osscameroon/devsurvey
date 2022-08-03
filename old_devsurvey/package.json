@@ -25,6 +25,7 @@
     "fuse.js": "^6.4.6",
     "google-spreadsheet": "^3.1.15",
     "js-yaml": "^4.1.0",
+    "vue": "^3.2.36",
     "yaml": "^1.10.2"
   },
   "devDependencies": {
