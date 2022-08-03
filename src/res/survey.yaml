@@ -347,3 +347,151 @@ items:
     pro_abroad_languages: []
     pro_abroad_frameworks:
       - Django
+  - github_handle: rayekov
+    gitlab_handle: rayekov
+    city: Yaoundé
+    developer_type:
+      - Full stack Developer
+      - Desktop Developer
+      - Web Developer
+    fav_languages:
+      - Python
+      - JavaScript
+      - C#
+      - PHP
+    fav_frameworks:
+      - React.js
+      - ASP.NET Core
+      - ASP.NET
+      - Symfony
+    pro_cam_languages:
+      - Python
+      - JavaScript
+      - PHP
+    pro_cam_frameworks:
+      - jQuery
+      - Symfony
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+      - C#
+      - PHP
+    pro_abroad_frameworks:
+      - ASP.NET Core
+      - ASP.NET
+      - Symfony
+  - github_handle: Wdjopa
+    gitlab_handle: Wdjopa
+    city: Yaoundé
+    developer_type:
+      - Frontend Developer
+      - Backend Developer
+      - Full stack Developer
+      - Mobile Developer
+    fav_languages:
+      - JavaScript
+      - PHP
+      - Dart
+    fav_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Laravel
+    pro_cam_languages:
+      - JavaScript
+      - PHP
+      - Dart
+    pro_cam_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Laravel
+    pro_abroad_languages:
+      - JavaScript
+      - PHP
+      - Dart
+    pro_abroad_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Angular
+      - Laravel
+  - github_handle: asam237
+    gitlab_handle: asam237
+    city: Mokolo
+    developer_type:
+      - Frontend Developer
+      - Backend Developer
+      - Mobile Developer
+      - Web Developer
+    fav_languages:
+      - JavaScript
+      - TypeScript
+      - Kotlin
+      - Dart
+    fav_frameworks:
+      - React.js
+      - Express
+      - Vue.js
+    pro_cam_languages:
+      - JavaScript
+      - TypeScript
+      - Kotlin
+      - Dart
+    pro_cam_frameworks:
+      - React.js
+      - Express
+      - Vue.js
+    pro_abroad_languages:
+      - JavaScript
+      - TypeScript
+      - Kotlin
+      - Dart
+    pro_abroad_frameworks:
+      - React.js
+      - Angular
+      - Vue.js
+  - github_handle: test-2
+    gitlab_handle: ""
+    city: Yaoundé
+    developer_type:
+      - Backend Developer
+      - Full stack Developer
+    fav_languages:
+      - JavaScript
+      - C/C++
+    fav_frameworks:
+      - Angular
+    pro_cam_languages:
+      - Perl
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Rust
+      - Ruby
+    pro_abroad_frameworks:
+      - Drupal
+  - github_handle: ln-dev7
+    gitlab_handle: ln-dev7
+    city: Yaoundé
+    developer_type:
+      - Frontend Developer
+      - Mobile Developer
+      - Web Developer
+      - Developer
+    fav_languages:
+      - JavaScript
+      - Dart
+    fav_frameworks:
+      - React.js
+      - Vue.js
+      - Svelte
+    pro_cam_languages:
+      - JavaScript
+    pro_cam_frameworks:
+      - React.js
+    pro_abroad_languages:
+      - JavaScript
+    pro_abroad_frameworks:
+      - React.js
