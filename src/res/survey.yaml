@@ -495,3 +495,15 @@ items:
       - JavaScript
     pro_abroad_frameworks:
       - React.js
+  - github_handle: Mamate
+    gitlab_handle: mamat123
+    city: ""
+    developer_type:
+      - Frontend Developer
+    fav_languages:
+      - Ruby
+    fav_frameworks: []
+    pro_cam_languages: []
+    pro_cam_frameworks: []
+    pro_abroad_languages: []
+    pro_abroad_frameworks: []
