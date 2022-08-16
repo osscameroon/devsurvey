@@ -507,3 +507,18 @@ items:
     pro_cam_frameworks: []
     pro_abroad_languages: []
     pro_abroad_frameworks: []
+  - github_handle: yolo
+    gitlab_handle: yola
+    city: ""
+    developer_type:
+      - Frontend Developer
+    fav_languages:
+      - Ada
+    fav_frameworks:
+      - ASP.NET
+    pro_cam_languages: []
+    pro_cam_frameworks:
+      - BackboneJS
+    pro_abroad_languages: []
+    pro_abroad_frameworks:
+      - Symfony
