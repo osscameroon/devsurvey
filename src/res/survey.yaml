@@ -522,3 +522,35 @@ items:
     pro_abroad_languages: []
     pro_abroad_frameworks:
       - Symfony
+  - github_handle: ngdream
+    gitlab_handle: ""
+    city: Yaoundé
+    developer_type:
+      - Frontend Developer
+      - Backend Developer
+      - Full stack Developer
+      - Mobile Developer
+      - Desktop Developer
+      - Game Developer
+      - Data scientist Developer
+      - Web Developer
+      - Security Developer
+      - Developer
+    fav_languages:
+      - Python
+      - JavaScript
+      - C/C++
+      - Rust
+    fav_frameworks:
+      - jQuery
+      - Vue.js
+      - Django
+      - Laravel
+    pro_cam_languages:
+      - Python
+      - C/C++
+    pro_cam_frameworks:
+      - Django
+    pro_abroad_languages:
+      - C/C++
+    pro_abroad_frameworks: []
