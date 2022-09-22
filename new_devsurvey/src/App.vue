@@ -1,36 +1,38 @@
 <template>
-  <div class="body">
-    <header-component></header-component>
-     
-   
- 
+  <div>
+    <HeaderComponent></HeaderComponent>
+    <BannerComponent></BannerComponent>
+    <AboutComponent></AboutComponent>
+    <LiveComponent></LiveComponent>
+    <LanguageComponent></LanguageComponent>
+    <CompanyComponent></CompanyComponent>
+    <FooterComponent></FooterComponent>
   </div>
-
-     
-    
-
 </template>
-
 <script>
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-import HeaderComponent from './components/HeaderComponent'
-
-
-
-
-
+import HeaderComponent from "./components/HeaderComponent";
+import BannerComponent from "./components/BannerComponent";
+import AboutComponent from "./components/AboutComponent.vue";
+import LiveComponent from "./components/LiveComponent.vue";
+import LanguageComponent from "./components/LanguageComponent.vue";
+import CompanyComponent from "./components/CompanyComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HeaderComponent,
-
-   
-  }
-}
+    BannerComponent,
+    AboutComponent,
+    LiveComponent,
+    LanguageComponent,
+    CompanyComponent,
+    FooterComponent,
+  },
+};
 </script>
 <style>
-  .body{
-    width: 100%;
-  }
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
 </style>
