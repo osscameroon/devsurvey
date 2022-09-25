@@ -6,8 +6,8 @@ items:
       - Golang
       - Rust
       - Python
-      - Javascript
-      - Typescript
+      - JavaScript
+      - TypeScript
       - PHP
       - Bash
     github_handle: elhmn
@@ -17,7 +17,7 @@ items:
     #Which of these languages did you use professionnaly with a company located in Cameroon
     pro_cam_languages:
       - Python
-      - Typescript
+      - TypeScript
     #Which of these languages did you use professionnaly with a company abroad
     pro_abroad_languages:
       - C/C++

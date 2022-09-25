@@ -6,15 +6,15 @@
 			</h1>
 		</div>
 
-		<div class="container-fluid">
+		<div>
 			<div class="row" id="header">
-				<div class="col-12 col-md-6">
+				<div class="col-md-6">
 					<div class="img">
 						<img alt="" src="./image.png" class='img' />
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6" id="col2">
+				<div class="col-md-6" id="col2">
 
 					<h1
 						style="font-family: Poppins; font-size: 38px; font-weight: 900; line-height: 57px; letter-spacing: 0em;	text-align: left; color: #4B4B4B;			">
@@ -53,22 +53,17 @@
 		</h1>
 	</div>
 	
-	<div class="container-fluid">
-		<div class="row" style="background-color:#F6F6F6;">
-			<maps-component></maps-component>
-			
-		</div>
-	</div>
+	
 	
 
 </template>
 
 <script>
-	import MapsComponent from './MapsComponent.vue';
+	
 
 export default {
 	components:{
-		MapsComponent
+		
 	}
 
 }
