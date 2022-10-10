@@ -74,25 +74,39 @@ export default {
   async created() {
     let items = await require("../assets/data/survey.yaml").items;
     let lang_count = {
-        "C/C++": 0,
-        "C#": 0,
-        "Golang": 0,
-        "Rust": 0,
-        "Python": 0,
-        "Javascript": 0,
-        "TypeScript": 0,
-        "PHP": 0,
-        "Bash": 0,
-    }
+        "c/c++": 0,
+        "c#": 0,
+        "golang": 0,
+        "go": 0,
+        "rust": 0,
+        "python": 0,
+        "javascript": 0,
+        "typescript": 0,
+        "php": 0,
+        "bash": 0,
+        "dart": 0,
+        "kotlin": 0,
+        "scala": 0,
+        "ada": 0,
+        "vba": 0,
+        "groovy": 0,
+    };
+    let lang_count_keys = Object.keys(lang_count);
     for (let item in items) {
-      let fav_languages = items[item].fav_languages;
+        let fav_languages = items[item].fav_languages;
 
-      for (let item2 in fav_languages) lang_count[fav_languages[item2]] += 1
+        for (let item2 in fav_languages){
+            const lang_item = fav_languages[item2].toLowerCase()
 
-      this.chartData = {
-        labels: Object.keys(lang_count),
-        datasets: [{ data: Object.values(lang_count) }],
-      };
+            if (lang_count_keys.includes(lang_item))
+                lang_count[lang_item] += 1
+        }
+    
+        lang_count_keys = Object.keys(lang_count);
+        this.chartData = {
+            labels: lang_count_keys,
+            datasets: [{ data: lang_count_keys.map(ll => lang_count[ll])}],
+        };
     }
   },
 };
