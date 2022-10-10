@@ -14,13 +14,13 @@
       >
         {{ titleOne }} <br />{{ titleTwo }}
       </h1>
-      <p class="leading-[18px] font-[300] text-[12px] text-center my-2">
+      <p class="leading-[18px] font-[300] text-sm text-center my-2">
         {{ body }}
       </p>
       <a
         href="https://github.com/osscameroon/devsurvey/issues/new?assignees=&labels=&template=take-the-survey.yaml&title=DO+NOT+EDIT+-+takes+the+developer+survey"
         target="_blank"
-        class="mt-4 flex items-center bg-[#3583ea] px-8 md:px-12 py-2 uppercase font-[900] text-white text-[14px] md:text-[22px]"
+        class="mt-4 flex items-center bg-[#3583ea] px-8 md:px-12 py-2 uppercase font-[900] text-white text-[14px] md:text-[22px] rounded-lg"
         >{{ link }}
         <span class="ml-4"
           ><img :src="require('../assets/images/arrow.png')"

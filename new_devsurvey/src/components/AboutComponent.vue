@@ -5,7 +5,7 @@
     >
       {{ title }}
     </h1>
-    <p class="leading-[18px] font-[300] text-[12px] px-2 md:px-0 m-2 w-full md:w-1/2 text-center">{{ body }}</p>
+    <p class="leading-[25px] font-[300] text-sm px-2 md:px-0 m-2 w-full md:w-1/2 text-center">{{ body }}</p>
   </div>
 </template>
 <script>

@@ -46,21 +46,21 @@ export default {
   name: "CompanyComponent",
   components: { Line },
   props: {
-      chartId: {
+    chartId: {
       type: String,
-      default: 'line-chart'
+      default: "line-chart",
     },
     width: {
       type: Number,
-      default: 700
+      default: 700,
     },
     height: {
       type: Number,
-      default: 400
+      default: 400,
     },
     cssClasses: {
-      default: '',
-      type: String
+      default: "",
+      type: String,
     },
   },
   data() {
@@ -74,39 +74,46 @@ export default {
   async created() {
     let items = await require("../assets/data/survey.yaml").items;
     let lang_count = {
-        "c/c++": 0,
-        "c#": 0,
-        "golang": 0,
-        "go": 0,
-        "rust": 0,
-        "python": 0,
-        "javascript": 0,
-        "typescript": 0,
-        "php": 0,
-        "bash": 0,
-        "dart": 0,
-        "kotlin": 0,
-        "scala": 0,
-        "ada": 0,
-        "vba": 0,
-        "groovy": 0,
+      "c/c++": 0,
+      "c#": 0,
+      golang: 0,
+      go: 0,
+      rust: 0,
+      python: 0,
+      javascript: 0,
+      typescript: 0,
+      php: 0,
+      bash: 0,
+      dart: 0,
+      kotlin: 0,
+      scala: 0,
+      ada: 0,
+      vba: 0,
+      groovy: 0,
+      java: 0,
+      perl: 0,
     };
     let lang_count_keys = Object.keys(lang_count);
     for (let item in items) {
-        let fav_languages = items[item].fav_languages;
+      let fav_languages = items[item].pro_cam_languages;
 
-        for (let item2 in fav_languages){
-            const lang_item = fav_languages[item2].toLowerCase()
+      for (let item2 in fav_languages) {
+        const lang_item = fav_languages[item2].toLowerCase();
 
-            if (lang_count_keys.includes(lang_item))
-                lang_count[lang_item] += 1
-        }
-    
-        lang_count_keys = Object.keys(lang_count);
-        this.chartData = {
-            labels: lang_count_keys,
-            datasets: [{ data: lang_count_keys.map(ll => lang_count[ll])}],
-        };
+        if (lang_count_keys.includes(lang_item)) lang_count[lang_item] += 1;
+      }
+
+      lang_count_keys = Object.keys(lang_count);
+      this.chartData = {
+        labels: lang_count_keys,
+        datasets: [
+          {
+            label: "Languages",
+            backgroundColor: "#f87979",
+            data: lang_count_keys.map((ll) => lang_count[ll]),
+          },
+        ],
+      };
     }
   },
 };
