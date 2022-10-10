@@ -6,7 +6,7 @@
       {{ title }}
     </h1>
     <div class="mt-10">
-      <img :src="require('../assets/images/language.png')" alt=""/>
+      <img :src="require('../assets/images/language.png')" alt="" />
     </div>
   </div>
 </template>
