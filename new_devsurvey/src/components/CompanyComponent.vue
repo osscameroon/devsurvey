@@ -73,71 +73,25 @@ export default {
   },
   async created() {
     let items = await require("../assets/data/survey.yaml").items;
-    let c_num = 0;
-    let csharp_num = 0;
-    let golang_num = 0;
-    let rust_num = 0;
-    let python_num = 0;
-    let js_num = 0;
-    let ts_num = 0;
-    let php_num = 0;
-    let bash_num = 0;
+    let lang_count = {
+        "C/C++": 0,
+        "C#": 0,
+        "Golang": 0,
+        "Rust": 0,
+        "Python": 0,
+        "Javascript": 0,
+        "TypeScript": 0,
+        "PHP": 0,
+        "Bash": 0,
+    }
     for (let item in items) {
       let fav_languages = items[item].fav_languages;
-      for (let item2 in fav_languages) {
-        if (fav_languages[item2] === "C/C++") {
-          c_num += 1;
-        }
-        if (fav_languages[item2] === "C#") {
-          csharp_num += 1;
-        }
-        if (fav_languages[item2] === "Golang") {
-          golang_num += 1;
-        }
-        if (fav_languages[item2] === "Rust") {
-          rust_num += 1;
-        }
-        if (fav_languages[item2] === "Python") {
-          python_num += 1;
-        }
-        if (fav_languages[item2] === "JavaScript") {
-          js_num += 1;
-        }
-        if (fav_languages[item2] === "TypeScript") {
-          ts_num += 1;
-        }
-        if (fav_languages[item2] === "PHP") {
-          php_num += 1;
-        }
-        if (fav_languages[item2] === "Bash") {
-          bash_num += 1;
-        }
-      }
-      this.labels = [
-        "C/C++",
-        "C#",
-        "Golang",
-        "Rust",
-        "Python",
-        "Javascript",
-        "TypeScript",
-        "PHP",
-        "Bash",
-      ];
-      this.datasets = [
-        c_num,
-        csharp_num,
-        golang_num,
-        rust_num,
-        python_num,
-        js_num,
-        ts_num,
-        php_num,
-        bash_num,
-      ];
+
+      for (let item2 in fav_languages) lang_count[fav_languages[item2]] += 1
+
       this.chartData = {
-        labels: this.labels,
-        datasets: [{ data: this.datasets }],
+        labels: Object.keys(lang_count),
+        datasets: [{ data: Object.values(lang_count) }],
       };
     }
   },
