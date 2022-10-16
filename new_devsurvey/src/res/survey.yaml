@@ -554,3 +554,16 @@ items:
     pro_abroad_languages:
       - C/C++
     pro_abroad_frameworks: []
+  - github_handle: tests---
+    gitlab_handle: test---
+    city: ""
+    developer_type:
+      - Data scientist Developer
+    fav_languages: []
+    fav_frameworks: []
+    pro_cam_languages: []
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - VBA
+    pro_abroad_frameworks:
+      - FastAPI
