@@ -567,3 +567,22 @@ items:
       - VBA
     pro_abroad_frameworks:
       - FastAPI
+  - github_handle: Akashiutchiha
+    gitlab_handle: ""
+    city: Bamenda
+    developer_type:
+      - Backend Developer
+      - Mobile Developer
+    fav_languages:
+      - Python
+      - C/C++
+      - PHP
+      - Dart
+    fav_frameworks:
+      - jQuery
+      - Flask
+      - Django
+    pro_cam_languages: []
+    pro_cam_frameworks: []
+    pro_abroad_languages: []
+    pro_abroad_frameworks: []
