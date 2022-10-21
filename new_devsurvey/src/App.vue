@@ -1,22 +1,22 @@
 <template>
   <div>
-    <HeaderComponent></HeaderComponent>
-    <BannerComponent></BannerComponent>
-    <AboutComponent></AboutComponent>
-    <LiveComponent></LiveComponent>
-    <LanguageComponent></LanguageComponent>
-    <CompanyComponent></CompanyComponent>
-    <FooterComponent></FooterComponent>
+    <HeaderComponent />
+    <BannerComponent />
+    <AboutComponent />
+    <LiveComponent />
+    <LanguageComponent />
+    <CompanyComponent />
+    <FooterComponent />
   </div>
 </template>
 <script>
-import HeaderComponent from "./components/HeaderComponent";
-import BannerComponent from "./components/BannerComponent";
-import AboutComponent from "./components/AboutComponent.vue";
-import LiveComponent from "./components/LiveComponent.vue";
-import LanguageComponent from "./components/LanguageComponent.vue";
-import CompanyComponent from "./components/CompanyComponent.vue";
-import FooterComponent from "./components/FooterComponent.vue";
+import HeaderComponent from "./components/header/index.vue";
+import BannerComponent from "./components/banner/index.vue";
+import AboutComponent from "./components/about/index.vue";
+import LiveComponent from "./components/live/index.vue";
+import LanguageComponent from "./components/language/index.vue";
+import CompanyComponent from "./components/company/index.vue";
+import FooterComponent from "./components/footer/index.vue";
 export default {
   name: "App",
   components: {

@@ -1,8 +1,6 @@
 <template>
-  <div class="flex flex-col items-center mt-20">
-    <h1
-      class="font-[900] text-center text-[28px] md:text-[38px] leading-[48px] text-[#4b4b4b] px-4 md:px-0"
-    >
+  <div class="live">
+    <h1 class="live__title">
       {{ title }}
     </h1>
     <div class="mt-10" />
@@ -44,7 +42,7 @@ export default {
     };
   },
   async created() {
-    let items = await require("../assets/data/survey.yaml").items;
+    let items = await require("../../assets/data/survey.yaml").items;
     let cities = {
       douala: 0,
       yaoundé: 0,
@@ -55,7 +53,6 @@ export default {
     };
     let city_count_keys = Object.keys(cities);
     for (let item in items) {
-
       let my_city = items[item].city.toLowerCase();
       if (city_count_keys.includes(my_city)) cities[my_city] += 1;
 
@@ -73,3 +70,12 @@ export default {
   },
 };
 </script>
+
+<style lang="postcss" scoped>
+.live {
+  @apply flex flex-col items-center mt-20;
+}
+.live__title {
+  @apply font-[900] text-center text-[28px] md:text-[38px] leading-[48px] text-[#4b4b4b] px-4 md:px-0;
+}
+</style>
