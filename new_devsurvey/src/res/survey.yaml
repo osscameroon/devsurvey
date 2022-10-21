@@ -586,3 +586,41 @@ items:
     pro_cam_frameworks: []
     pro_abroad_languages: []
     pro_abroad_frameworks: []
+  - github_handle: mystroken
+    gitlab_handle: mystroken
+    city: Yaoundé
+    developer_type:
+      - Full stack Developer
+      - DevOps Developer
+    fav_languages:
+      - Java
+      - JavaScript
+      - PHP
+      - TypeScript
+      - Go
+    fav_frameworks:
+      - React.js
+      - Express
+      - Vue.js
+      - Laravel
+      - Gatsby
+    pro_cam_languages:
+      - JavaScript
+      - PHP
+      - TypeScript
+    pro_cam_frameworks:
+      - React.js
+      - jQuery
+      - ASP.NET Core
+      - Laravel
+    pro_abroad_languages:
+      - JavaScript
+      - PHP
+      - TypeScript
+    pro_abroad_frameworks:
+      - React.js
+      - jQuery
+      - Express
+      - Vue.js
+      - Laravel
+      - Gatsby
