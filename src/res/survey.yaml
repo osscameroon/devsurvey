@@ -624,3 +624,35 @@ items:
       - Vue.js
       - Laravel
       - Gatsby
+  - github_handle: Phenix3
+    gitlab_handle: ""
+    city: Maroua
+    developer_type:
+      - Full stack Developer
+      - Web Developer
+    fav_languages:
+      - Python
+      - JavaScript
+      - PHP
+      - Rust
+    fav_frameworks:
+      - React.js
+      - Laravel
+      - Symfony
+    pro_cam_languages:
+      - JavaScript
+      - PHP
+    pro_cam_frameworks:
+      - React.js
+      - jQuery
+      - Vue.js
+      - Laravel
+      - Symfony
+    pro_abroad_languages:
+      - JavaScript
+      - PHP
+    pro_abroad_frameworks:
+      - React.js
+      - jQuery
+      - Laravel
+      - Symfony
