@@ -656,3 +656,34 @@ items:
       - jQuery
       - Laravel
       - Symfony
+  - github_handle: Ihimbru-K
+    gitlab_handle: ""
+    city: Bamenda
+    developer_type:
+      - Backend Developer
+      - Mobile Developer
+      - Data scientist Developer
+      - Embedded developer
+    fav_languages:
+      - Python
+      - Java
+      - C/C++
+      - Kotlin
+      - Dart
+    fav_frameworks:
+      - Spring
+    pro_cam_languages:
+      - Java
+      - C/C++
+      - Kotlin
+      - Dart
+    pro_cam_frameworks:
+      - Spring
+    pro_abroad_languages:
+      - Python
+      - Java
+      - C/C++
+      - Kotlin
+      - Dart
+    pro_abroad_frameworks:
+      - Spring
