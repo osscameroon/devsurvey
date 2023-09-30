@@ -687,3 +687,17 @@ items:
       - Dart
     pro_abroad_frameworks:
       - Spring
+  - github_handle: hello
+    gitlab_handle: hello
+    city: Edéa
+    developer_type:
+      - Frontend Developer
+    fav_languages: []
+    fav_frameworks:
+      - ASP.NET Core
+    pro_cam_languages:
+      - Cobol
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Rust
+    pro_abroad_frameworks: []
