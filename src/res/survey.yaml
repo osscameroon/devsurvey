@@ -701,3 +701,19 @@ items:
     pro_abroad_languages:
       - Rust
     pro_abroad_frameworks: []
+  - github_handle: lol
+    gitlab_handle: ""
+    city: Yaoundé
+    developer_type:
+      - Full stack Developer
+      - Game Developer
+    fav_languages:
+      - Objective-C
+      - Swift
+    fav_frameworks:
+      - Flask
+    pro_cam_languages: []
+    pro_cam_frameworks:
+      - ASP.NET
+    pro_abroad_languages: []
+    pro_abroad_frameworks: []
