@@ -736,3 +736,35 @@ items:
       - PHP
     pro_abroad_frameworks:
       - jQuery
+  - github_handle: sikatikenmogne
+    gitlab_handle: sikatikenmogne
+    city: Douala
+    developer_type:
+      - Full stack Developer
+      - Web Developer
+      - Developer
+    fav_languages:
+      - Python
+      - Java
+      - JavaScript
+      - PHP
+    fav_frameworks:
+      - Vue.js
+      - Flask
+      - Django
+      - Laravel
+      - Symfony
+    pro_cam_languages:
+      - Python
+      - Java
+      - JavaScript
+      - PHP
+      - TypeScript
+      - VBA
+    pro_cam_frameworks:
+      - Vue.js
+      - Flask
+      - Django
+      - Symfony
+    pro_abroad_languages: []
+    pro_abroad_frameworks: []
