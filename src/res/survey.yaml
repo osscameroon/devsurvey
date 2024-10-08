@@ -717,3 +717,22 @@ items:
       - ASP.NET
     pro_abroad_languages: []
     pro_abroad_frameworks: []
+  - github_handle: pythonbrad
+    gitlab_handle: pythonbrad
+    city: Douala
+    developer_type:
+      - Backend Developer
+    fav_languages:
+      - Python
+      - Rust
+    fav_frameworks:
+      - jQuery
+      - Django
+    pro_cam_languages: []
+    pro_cam_frameworks: []
+    pro_abroad_languages:
+      - Python
+      - JavaScript
+      - PHP
+    pro_abroad_frameworks:
+      - jQuery
