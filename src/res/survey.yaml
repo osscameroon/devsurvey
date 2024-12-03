@@ -787,3 +787,33 @@ items:
     pro_cam_frameworks: []
     pro_abroad_languages: []
     pro_abroad_frameworks: []
+  - github_handle: djoufson
+    gitlab_handle: ""
+    city: Douala
+    developer_type:
+      - Backend Developer
+      - Mobile Developer
+      - Game Developer
+    fav_languages:
+      - C#
+      - TypeScript
+    fav_frameworks:
+      - Vue.js
+      - ASP.NET Core
+      - ASP.NET
+    pro_cam_languages:
+      - JavaScript
+      - C#
+      - PHP
+      - TypeScript
+    pro_cam_frameworks:
+      - React.js
+      - ASP.NET Core
+      - Laravel
+    pro_abroad_languages:
+      - JavaScript
+      - C#
+      - TypeScript
+    pro_abroad_frameworks:
+      - React.js
+      - ASP.NET Core
