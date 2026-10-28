@@ -1,0 +1,45 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-1" style="font-weight: 600; color: #2F80ED">What Cameroonian developers use</h2>
+    <p class="text-center text-secondary mb-4">Based on {{answersCount}} answers</p>
+    <div class="row g-4">
+        {{#each charts}}
+            <div class="col-lg-6">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="h6 mb-3" style="font-weight: 600">{{this.title}}</h3>
+                  <div style="position: relative; height: 320px">
+                    <canvas id="{{this.id}}" role="img" aria-label="{{this.title}}"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4" crossorigin="anonymous"></script>
+<script>
+    {{{toJSON charts}}}.forEach(function (chart) {
+        new Chart(document.getElementById(chart.id), {
+            type: "bar",
+            data: {
+                labels: chart.labels,
+                datasets: [{
+                    label: "Developers",
+                    data: chart.counts,
+                    backgroundColor: "#2F80ED",
+                    borderRadius: 4,
+                }],
+            },
+            options: {
+                indexAxis: "y",
+                plugins: { legend: { display: false } },
+                maintainAspectRatio: false,
+                scales: {
+                    x: { beginAtZero: true, ticks: { precision: 0 } },
+                    y: { ticks: { autoSkip: false } },
+                },
+            },
+        });
+    });
+</script>

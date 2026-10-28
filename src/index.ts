@@ -2,6 +2,7 @@ import express from "express";
 import exphbs from "express-handlebars";
 import * as helpers from "./helpers/handlebars";
 import { getSurvey, Item } from "./survey";
+import { getCharts } from "./charts";
 import Fuse from "fuse.js";
 
 const port: number = 3000;
@@ -73,6 +74,9 @@ const handleHome = async (req: any, res: any) => {
     filteredSurvey,
     parseInt(req.query.page) || 1
   );
+  const current = parseInt(req.query.page) || 1;
+  //Charts summarise every answer, so we only show them on the first page when nothing is searched
+  const charts = query === "" && current === 1 ? getCharts(survey || []) : [];
   const fullUrl = req.protocol + "://" + req.get("host") + req.originalUrl;
 
   res.render("index", {
@@ -84,6 +88,8 @@ const handleHome = async (req: any, res: any) => {
     current: parseInt(req.query.page) || 1,
     pages: Math.ceil(count / limit),
     survey: items,
+    charts,
+    answersCount: survey?.length || 0,
     currentYear: getCurrentYear(),
   });
 };
