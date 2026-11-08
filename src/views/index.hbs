@@ -16,6 +16,9 @@
 			<p style="text-align: center">You are a cameroonian developer, please take this 3 minutes survey <a href="https://github.com/osscameroon/devsurvey/issues/new?assignees=&labels=&template=take-the-survey.yaml&title=DO+NOT+EDIT+-+takes+the+developer+survey" target="_blank">here</a></p>
 		</div>
 		{{#if (isLink link "home") }}
+			{{#if charts.length}}
+				{{>charts}}
+			{{/if}}
 			{{>home}}
             {{#if  (isLower 0 pages)}}
                 {{>pagination}}

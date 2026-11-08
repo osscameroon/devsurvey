@@ -4,7 +4,8 @@ import * as fs from "fs";
 const surveyFilePath = __dirname + "/res/survey.yaml";
 
 export interface Item {
-  fav_languages?: string;
+  city?: string;
+  fav_languages?: string[];
   pro_cam_languages?: string[];
   pro_abroad_languages?: string[];
   fav_frameworks?: string[];

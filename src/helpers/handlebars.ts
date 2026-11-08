@@ -42,3 +42,8 @@ export const contains = (a: string, b:string): boolean => {
 export const formatList = (list: string[]): string => {
   return list?.join(', ');
 }
+
+//toJSON lets a template pass data to a script, "<" is escaped so the data can't close the script tag
+export const toJSON = (value: any): string => {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
+}
